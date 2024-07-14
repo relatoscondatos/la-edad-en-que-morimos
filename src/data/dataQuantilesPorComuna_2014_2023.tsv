@@ -1,0 +1,349 @@
+comuna	p50	p25	p75	p100	n
+Recoleta	76	63	85	109	12087
+Cañete	74	60	84	105	2688
+Tiltil	74	61	84	102	1045
+Maipú	75	62	85	111	26496
+Lo Barnechea	80	67	89	111	3793
+Rancagua	74	61	84	110	16339
+Puerto Montt	73	59	83	123	13572
+Padre Hurtado	74	62	83.75	107	3318
+San Joaquín	78	66	87	106	7647
+Peñaflor	76	63	85	114	5512
+San Bernardo	73	60	83	111	17842
+Los Álamos	74	61	84	106	1466
+Iquique	73	60	84	108	11634
+Puente Alto	73	60	83	114	28187
+Coquimbo	76	63	85	108	13463
+Coronel	74	61	84	106	7185
+La Granja	75	62	85	107	8446
+Santiago	76	61	86	112	17057
+Temuco	76	63	86	116	17818
+Nancagua	77	64	86	106	1235
+La Pintana	70	57	80	105	10709
+Puerto Octay	75	62	84	103	605
+Colina	71	56	82	108	5643
+Combarbalá	80	70	88	106	1186
+Cerrillos	76	63	86	109	4856
+Antofagasta	72	60	83	107	21442
+San Miguel	80	68	88	110	9536
+Quilicura	69	55	81	111	7598
+Santa Bárbara	77	66	87	109	1128
+Arica	75	62	84	110	14755
+Peñalolén	75	62	84	107	13766
+Copiapó	75	61	84	107	8488
+Renca	72	59	82	110	8793
+Buin	75	61	85	107	5331
+San Pedro de la Paz	74	61	84	105	6500
+Lo Espejo	74	60	85	118	8126
+San Javier	76	64	85	105	3464
+Quinta Normal	78	65	87	113	8988
+Contulmo	75	62	85	102	524
+Estación Central	76	62	86	107	9520
+Calama	70	55	82	109	7971
+Hualaihué	74	58	85	102	604
+San Clemente	75	63	84	108	2874
+Castro	75	60	85	108	3381
+Alto Hospicio	66	52	77	107	3574
+Los Sauces	76	62	85	103	686
+Conchalí	77	63	86	112	10439
+Hijuelas	76	65	85	105	1111
+Punta Arenas	75	63	85	110	9545
+Quillota	78	66	87	108	7217
+San Fernando	76	63	86	105	5027
+Viña del Mar	79	67	88	108	26368
+María Pinto	76	63	85	105	808
+Linares	76	64	85	110	7041
+Curacaví	76	64	85	108	2160
+San Pedro	78	64	86	107	636
+La Florida	76	65	86	107	23034
+Catemu	76	64	86	103	965
+Los Ángeles	76	62	85	109	12982
+Mostazal	75	61.5	84	105	1571
+Alto Biobío	66	47	79	105	377
+Chiguayante	76	64	86	109	4963
+Angol	76	64	86	109	4124
+Arauco	76	64	85	106	2268
+Valdivia	76	63	86	106	11170
+Ercilla	74	59	84	104	787
+Chillán	76	63	85	111	13223
+Freire	77	65	86	105	2012
+Quilleco	77	66	86	105	815
+San Antonio	75	63	85	107	7602
+Nogales	77	66	86	104	1602
+Perquenco	76	64	84.5	101	519
+Traiguén	78	67	86	108	1981
+Pudahuel	73	59	83	107	11800
+Olivar	75	63	85	104	752
+San Ramón	76	64	84	106	7220
+Talca	76	64	85	110	15031
+Valparaíso	77	64	86	109	23743
+Osorno	76	63	85	118	12487
+Río Bueno	76	64	85	108	2932
+Vicuña	78	66	86.75	105	1734
+Coihaique	73	60	84	108	3016
+Florida	76	66	86	105	908
+Curicó	75	62	85	112	9640
+Cerro Navia	74	61	83	106	10502
+Putre	78	49	86	100	45
+Pencahue	79	68	88	107	590
+La Ligua	77	64	85	107	2531
+Lo Prado	76	64	84	105	7067
+Calbuco	77	63	87	112	2503
+Longaví	74	62	84	105	2263
+Independencia	76	62	86	121	9150
+El Bosque	75	62	84	109	11140
+Los Andes	78	66	87	111	4594
+Hualqui	74	62	84	106	1569
+Puerto Varas	76	62	85	106	2323
+Huechuraba	74	60	83	106	5435
+Curacautín	78	67	86	105	1496
+Teno	76	64	85	101	1981
+Quemchi	78	62	86	102	680
+Quilpué	79	68	87	107	12639
+Loncoche	77	65	86	105	1982
+Cabildo	77	64	86	107	1328
+Galvarino	76	63	85	109	1078
+Lampa	71	57	82	126	4567
+Llanquihue	75	62	84	103	1196
+La Serena	76	63	86	107	13543
+Melipilla	76	63	85	105	8878
+La Reina	82	71	90	111	6678
+Panguipulli	75	61	85	106	2876
+Ignorada	45	28.5	59	86	84
+Calera	77	65	85	105	3973
+Victoria	77	64	86	107	2888
+Mariquina	76	62	85	121	1593
+Tucapel	78	67	86	103	1241
+Tomé	77	66	86	108	4237
+El Monte	76	61	85	105	2036
+Cochamó	79	65	87	101	320
+Concepción	77	65	86	116	15397
+Villarrica	76	63	86	115	3862
+Cartagena	75	63	85	108	1887
+Quintero	76	64	85	105	2208
+San José de Maipo	77	64	86	106	1190
+Paine	75	62	85	105	3771
+Talcahuano	76	64	85	108	11209
+Villa Alemana	79	68	87	108	9033
+Pichidegua	76	63	86	102	1470
+Rengo	76	63	85	111	3915
+Coltauco	76	63	85	106	1322
+Ñuñoa	84	73	90	110	15210
+Monte Patria	79	65	87	105	1919
+San Rafael	75	64	84.75	100	606
+Peralillo	77	64	86	110	820
+Quellón	69	54	82	102	1479
+Retiro	76	64.75	85	109	1440
+San Pablo	77	65	85	107	934
+Romeral	75	62	84	102	939
+La Cisterna	80	68	88	108	7756
+Olmué	78	67	86	105	1273
+Quirihue	77	64	87	103	1155
+Litueche	77.5	66	87	103	476
+Ovalle	77	64	86	108	7396
+Frutillar	75	61	85	105	1337
+Futrono	74	59	84	103	1080
+Placilla	76	62	86	106	650
+Collipulli	74	61	84	103	1801
+La Unión	76	64	85	111	3153
+Curanilahue	74	61	84	104	2343
+Corral	77	67	86	106	441
+Los Vilos	76	63	85	104	1388
+Puyehue	75	61	85	102	928
+Saavedra	76	60	85.75	105	1374
+Tirúa	71	54	82	111	752
+Llaillay	77	65	85	108	1808
+Illapel	77	65	86	108	2262
+Teodoro Schmidt	75	61	85	106	1436
+Talagante	76	63	85	106	4382
+Lebu	76	62	85	109	1878
+Macul	80	67	88	108	8185
+Aisén	71	56	82	105	1415
+Providencia	84	73	91	111	11759
+Paredones	81	69	88.75	104	554
+Gorbea	79	66	87	104	1376
+Chañaral	75	62	84	102	872
+Las Cabras	77	64	85	113	1736
+Natales	74	64	84	105	1745
+Curarrehue	76	59	85	102	522
+Taltal	74	60	84	102	768
+San Rosendo	75.5	64	83	101	322
+San Pedro de Atacama	66	47	82	105	353
+El Tabo	75.5	65	84	104	1006
+Concón	77	64	86	109	2401
+Santa María	78	65	86	107	951
+Purén	77	63	86	106	1063
+Paillaco	77	64	85	105	1794
+San Felipe	77	64	86	107	5447
+San Carlos	76.5	65	86	109	4592
+Fresia	75	63	85	104	1152
+Peumo	76	63	85	106	1060
+Antuco	80	68	86	101	340
+Limache	79	68	87	108	4102
+Ancud	76	63	85	109	3235
+San Juan de la Costa	73	58	84	105	858
+Padre Las Casas	75	61	84	111	4716
+Mejillones	70	56	81	101	513
+Parral	77	64	86	109	3250
+El Quisco	76	64	85.5	108	1207
+Vilcún	75	63	85	104	1896
+Malloa	75	63	85	102	1025
+Pelarco	78	66	87	110	575
+Ránquil	78	64.75	85.25	101	584
+Pucón	76	61	85	105	1670
+Cabrero	75	63	85	112	1914
+Pozo Almonte	70	56	81	103	613
+La Estrella	80	69	89	100	291
+San Ignacio	75	62	84	104	1355
+Nueva Imperial	77	65	86	107	2859
+Pinto	77	63	86	108	923
+Renaico	75	63	84	102	747
+Santa Juana	76	63	85	106	1202
+Diego de Almagro	74	58	84	108	561
+Constitución	73	60	84	106	2865
+San Vicente	77	65	86	106	3225
+Codegua	75	62	85	102	794
+Chonchi	75	60	85	102	1063
+Pichilemu	75	62	85	104	1165
+Cunco	78	66	87	109	1668
+Graneros	75	61	84	104	1933
+Coihueco	76	63	85	107	1764
+Yumbel	76	65	85	107	1906
+Yerbas Buenas	75	63	84.5	105	1235
+Villa Alegre	77	67	86	105	1203
+Hualpén	76	64	85	106	5940
+Penco	75	63	85	106	3056
+San Esteban	78	66	87	106	1136
+Huara	76	59.5	85.5	106	115
+Nacimiento	76	63	85	107	1839
+Río Negro	76	64	85	107	1234
+La Cruz	78	65.75	86	109	1148
+Carahue	75	61	85	110	2106
+Andacollo	77	63	86	105	774
+Putaendo	78	65	86	104	1426
+Porvenir	75	62	83	102	370
+Doñihue	76	62	85	102	1274
+Rauco	76	63	85	110	763
+Puqueldón	79	60	88	109	337
+Mulchén	76	64	85	107	2228
+Machalí	75	62	84	108	2391
+María Elena	66	56	76	100	179
+Requínoa	75	61	84	110	1397
+Los Lagos	74	62	84	104	1480
+Coelemu	77	65	86	107	1315
+Isla de Maipo	76	63	85	109	1962
+Pemuco	77	64	86	107	683
+Casablanca	78	66	87	104	1774
+Calera de Tango	75	64	85	103	1291
+Chépica	78.5	65	86	105	1236
+Melipeuco	79	67	87	103	550
+Lago Ranco	75	61	84	108	931
+Algarrobo	77	66	86	105	1060
+Vitacura	84	74	91	110	5365
+Marchihue	78	67	87	102	584
+El Carmen	77	63	85	105	1100
+Chaitén	72	56	83	103	247
+Punitaqui	78	65	86	104	731
+Cochrane	73.5	61.5	86	106	174
+Laja	76	64	85	104	1673
+Yungay	78	66	86	105	1427
+Lautaro	75	62	85	104	2784
+Chimbarongo	75	63	85	104	2407
+Santa Cruz	77	64	86	108	2813
+Cauquenes	79	66	87	108	3919
+Pedro Aguirre Cerda	77	64	87	107	9106
+Santo Domingo	79	65	88	104	637
+Purranque	77	65	85	104	1776
+Negrete	76	62	85	106	732
+Pirque	78	65	86	106	1369
+Pumanque	81	70	88	105	288
+Cholchol	78	65	87	103	972
+Caldera	73	59	83	104	934
+Cisnes	70	55	83	104	277
+Colbún	77	65	85	117	1455
+Quillón	76	65	86	104	1443
+Alhué	76	63	87	106	375
+Chanco	78	65	87	102	752
+Lolol	79	66	88	102	512
+Toltén	78	65	87	105	896
+Maule	72	59	82	107	1792
+Lanco	76	63	85	104	1419
+Los Muermos	75	62	85	102	1403
+Quinta de Tilcoco	76	63	86	102	896
+Empedrado	77	64	86.25	105	248
+Tierra Amarilla	72	56	83	104	631
+Queilén	76	58	86	108	436
+Lumaco	74	59	85	105	750
+Papudo	76	61	85	101	418
+Salamanca	78	66	86	108	1738
+Bulnes	76	64	85	107	1731
+Treguaco	76.5	63	86	102	430
+Isla de Pascua	69	59	78	103	316
+Río Claro	76	62	85	101	880
+Dalcahue	78	62	87	107	926
+Chillán Viejo	76	63	85	104	1523
+Palena	77	62	84.25	102	112
+Hualañé	78	66	86	106	829
+Coinco	78	66	87	106	508
+Maullín	77	64	85	107	1162
+Río Ibáñez	75	62.5	86	98	219
+Palmilla	77	63	86	102	787
+Pica	78	62	88	102	295
+Portezuelo	77	65	86	104	461
+San Fabián	78	66	86	107	313
+Petorca	78	66	86	106	774
+Sagrada Familia	76	63	84	100	1273
+Licantén	79	66	88	108	560
+Puchuncaví	77	65	85.5	103	1363
+Futaleufú	78	60.75	86.25	104	156
+La Higuera	75	65	85	105	208
+Pelluhue	77.5	64	86.75	100	510
+Tortel	68	56.5	82.25	96	26
+San Nicolás	76	63	84	101	819
+Huasco	75	61	85	102	652
+Máfil	77	62	87	104	549
+Quinchao	78	59.75	86	104	736
+Curepto	80	69	87	103	936
+Alto del Carmen	79	67.5	87	107	351
+Ñiquén	78	65	86	105	905
+Curaco de Vélez	79	67	89	102	298
+Chile Chico	74	59.25	83	102	314
+Camiña	81	64.5	86.5	101	47
+Navidad	80	69	87	103	595
+Juan Fernández	78	69.5	85.5	97	35
+Ninhue	77	65	86	105	499
+Quilaco	78	69	85.75	114	350
+Colchane	65	40.5	85.5	97	43
+Río Hurtado	80	68	89	105	384
+Paiguano	80	69.75	88	102	284
+Panquehue	77	66	85	107	474
+Sierra Gorda	63	51.25	75.5	92	46
+O'Higgins	78	66.5	86	97	15
+Primavera	70	59.25	80.75	100	6
+Guaitecas	65.5	49.25	81.25	98	72
+Antártica	57.5	54.75	67.5	90	4
+Lago Verde	78	69	86	104	51
+Timaukel	33.5	30.75	36.25	39	2
+Camarones	78	66	86	99	21
+Torres del Paine	68	47	78.25	92	8
+Cabo de Hornos	71	59	84	93	17
+San Gregorio	82	63	86	88	5
+General Lagos	55	26.5	91	93	11
+Río Verde	64	64	64	64	1
+Las Condes	84	74	91	114	19543
+Vallenar	77	65	86	105	3671
+Canela	81	69	89	104	734
+Rinconada	78	66	85	104	553
+Pitrufquén	78	65	86	107	2167
+Molina	75	63	84	106	3448
+Tocopilla	74	63	83	101	1935
+Calle Larga	76	63	84	103	742
+Zapallar	78	66	86	107	473
+Vichuquén	79	65.25	87.75	105	310
+Lonquimay	75	59	85	107	711
+Cobquecura	79	65	87	103	470
+Freirina	76	63	86.75	102	446
+Ollagüe	74	64.5	83.25	93	4
+Lota	74	63	84	107	3693
+Laguna Blanca	66.5	57.5	69.75	72	4
+Chile	76	63	86	126	1154774

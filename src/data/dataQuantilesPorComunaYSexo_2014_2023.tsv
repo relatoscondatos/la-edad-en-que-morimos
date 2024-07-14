@@ -1,0 +1,788 @@
+comuna	sexo	p50	p25	p75	p100	n
+Recoleta	Mujer	81	68	88	109	5839
+Cañete	Hombre	70	55	82	103	1535
+Tiltil	Hombre	72	59	82	100	578
+Maipú	Hombre	71	59	81	111	13382
+Lo Barnechea	Hombre	75	63	86	104	1880
+Rancagua	Hombre	71	58	81	105	8646
+Puerto Montt	Hombre	69	56	80	105	7611
+Padre Hurtado	Mujer	77	66	86	107	1504
+San Joaquín	Hombre	74	61	83	106	3861
+Peñaflor	Hombre	73	60	82	101	2868
+San Bernardo	Hombre	70	57	80	111	9506
+Los Álamos	Hombre	72	58	82	104	869
+Iquique	Hombre	69	56	80	108	6420
+Puente Alto	Hombre	69	57	79	112	14586
+Coquimbo	Hombre	73	61	82	108	7111
+Coronel	Hombre	71	59	82	105	3831
+La Granja	Mujer	80	67	88	107	3998
+Santiago	Hombre	71	57	82	104	8615
+Temuco	Hombre	72	58	82	106	9048
+Nancagua	Hombre	74	62	84	104	654
+La Pintana	Hombre	67	54	77	104	5970
+Puerto Octay	Hombre	72	61	82	99	371
+Colina	Hombre	68	52	79	104	3203
+Combarbalá	Mujer	83	73	90	106	504
+Cerrillos	Hombre	72	58	83	102	2518
+Antofagasta	Hombre	68	57	79	107	11505
+San Miguel	Hombre	75	63	85	104	4503
+Quilicura	Hombre	66	51	77	101	4009
+Maipú	Mujer	79	67	88	110	13109
+Santa Bárbara	Hombre	75	63.75	85	104	624
+Arica	Hombre	72	59	81	105	8150
+Peñalolén	Hombre	71	58	81	105	7158
+Copiapó	Hombre	72	59	82	104	4733
+Renca	Hombre	69	56	79	103	4841
+Buin	Hombre	72	59	82	104	2927
+San Pedro de la Paz	Hombre	71	57	81	102	3289
+Lo Espejo	Hombre	69	56	80.25	102	4388
+San Javier	Hombre	74	62	83	101	1892
+Quinta Normal	Hombre	73	61	83	103	4474
+Contulmo	Mujer	79	66	88	102	201
+Estación Central	Mujer	80	68	89	107	4574
+Calama	Hombre	66	52	78	109	4553
+Hualaihué	Hombre	72	56	82	98	357
+Lota	Hombre	71	61	82	102	1975
+San Clemente	Hombre	74	61	83	105	1671
+Castro	Hombre	69	53	81	107	1783
+Alto Hospicio	Hombre	64	49	74	104	2079
+Los Sauces	Hombre	74	59	83	99	382
+Conchalí	Hombre	73	58	83	107	5379
+Hijuelas	Hombre	75	63.25	84	103	618
+Punta Arenas	Hombre	72	60	81	105	5172
+Peñalolén	Mujer	78	67	87	107	6605
+Arica	Mujer	78	66	87	110	6602
+Puerto Montt	Mujer	77	64	86	123	5959
+Quillota	Hombre	74	62	84	106	3723
+San Fernando	Hombre	73	61	83	103	2601
+Coronel	Mujer	77	65	86	106	3353
+Viña del Mar	Hombre	76	64	85	107	12713
+La Pintana	Mujer	73	62	83	105	4737
+María Pinto	Hombre	73	60	84	105	452
+Linares	Hombre	73	60	82	103	3762
+Curacaví	Hombre	75	63	84	108	1183
+San Pedro	Hombre	76	64	84	107	373
+Santiago	Mujer	81	67	89	112	8439
+La Florida	Hombre	73	61	82	106	11462
+Catemu	Hombre	74	62	84	103	560
+Antofagasta	Mujer	77	64	86	107	9932
+Los Ángeles	Hombre	73	59	83	103	7096
+Alto Hospicio	Mujer	68	55	80	107	1494
+Mostazal	Hombre	73	60	82	101	878
+Los Sauces	Mujer	78.5	66	87	103	304
+Alto Biobío	Mujer	73	55.5	83	105	143
+Chiguayante	Hombre	72	60	82	104	2465
+Angol	Hombre	73	60	83	103	2194
+Arauco	Hombre	74	60	83	101	1266
+Valdivia	Mujer	80	68	88	106	5389
+Ercilla	Hombre	71	56	82.75	104	450
+Chillán	Hombre	72	60	82	106	6854
+Freire	Hombre	74	62	83	99	1116
+Quilleco	Hombre	75	62	84	105	476
+San Antonio	Hombre	72	60	82	105	3922
+Viña del Mar	Mujer	83	72	90	108	13655
+Nogales	Hombre	75	63.75	83	100	856
+Perquenco	Mujer	79	68.75	86	101	224
+Traiguén	Hombre	76	64	84	108	1057
+Copiapó	Mujer	78	65.5	87	107	3755
+Calama	Mujer	74	60	85	108	3416
+Pudahuel	Mujer	77	64	86	107	5531
+San Javier	Mujer	80	67.75	88	105	1572
+Olivar	Hombre	72	61	83	104	399
+San Bernardo	Mujer	77	65	87	107	8331
+San Ramón	Mujer	79	69	86	106	3393
+Talca	Hombre	73	61	82	103	7719
+Valparaíso	Hombre	73	60	82	107	12208
+Cauquenes	Mujer	82	71	90	108	1799
+Osorno	Hombre	72	59	82	118	6528
+Río Bueno	Hombre	73	60	82	105	1663
+Vicuña	Hombre	76	63	85	104	947
+Puente Alto	Mujer	77	64	86	114	13597
+Quilicura	Mujer	74	60	84	111	3587
+Coihaique	Hombre	71	57	81	106	1751
+Pudahuel	Hombre	69	56	79	107	6267
+Curicó	Hombre	72	59	82	103	5186
+Cerro Navia	Hombre	70	57	80	103	5685
+Conchalí	Mujer	81	69	88	112	5059
+Putre	Hombre	70	48.25	85	98	28
+Pencahue	Hombre	77	67	85	102	353
+La Ligua	Hombre	75	61	84	103	1380
+Lo Prado	Hombre	73	60	81	104	3737
+Calbuco	Hombre	73	57	84	105	1413
+Longaví	Hombre	73	60	82	103	1325
+San Fernando	Mujer	80	67	88	105	2425
+Independencia	Hombre	71	55	81	104	4613
+El Bosque	Mujer	78	67	87	109	5392
+Los Andes	Mujer	81	69	89	111	2212
+Linares	Mujer	80	69	87	110	3276
+Hualqui	Hombre	69	59	80	101	838
+Puerto Varas	Hombre	72	58	82	102	1249
+Huechuraba	Hombre	71	56	80	104	2885
+Curacautín	Hombre	75.5	64	84	103	786
+Teno	Hombre	74	62	83	101	1152
+Quemchi	Mujer	83	70	90	102	283
+San Antonio	Mujer	79	67	87	107	3680
+Quilpué	Hombre	76	65	84	107	6110
+Valdivia	Hombre	72	59	82	106	5779
+Loncoche	Hombre	75	63	83	105	1079
+Cabildo	Mujer	80	68	88	107	595
+Galvarino	Mujer	77	66	87	109	464
+Los Andes	Hombre	75	63	84	105	2382
+Lampa	Hombre	69	55	80	126	2680
+Temuco	Mujer	81	69	89	116	8764
+Llanquihue	Mujer	78	67	86	103	560
+La Serena	Hombre	73	59	83	106	7115
+Melipilla	Hombre	73	60	83	104	4944
+La Reina	Hombre	79	67	87	104	3075
+Panguipulli	Hombre	72	57	83	102	1699
+Ignorada	Hombre	51	30.5	62	86	71
+Calera	Hombre	74	62	83	101	2055
+Santa Cruz	Hombre	74	60	84	102	1501
+Teno	Mujer	79	68	87	101	828
+Recoleta	Hombre	72	58	81	105	6247
+Victoria	Hombre	73	61	83	107	1531
+Mariquina	Hombre	74	59	83	121	912
+Coquimbo	Mujer	79	67	88	108	6351
+Tucapel	Hombre	76	63.25	84	100	658
+Tomé	Hombre	75	64	84	103	2209
+El Monte	Hombre	72	58	82	100	1096
+Cochamó	Hombre	74.5	61.5	85	97	206
+Concepción	Hombre	73	61	83	110	7678
+Quilpué	Mujer	83	72	90	107	6529
+Pedro Aguirre Cerda	Mujer	82	69	89	107	4431
+Villarrica	Hombre	74	60	83	103	2111
+Cartagena	Mujer	78	68	88	108	825
+Quintero	Hombre	74	61.25	82	102	1222
+Curicó	Mujer	79	66	87	112	4453
+San José de Maipo	Hombre	75	61	84	100	646
+Paine	Hombre	73	59	82	103	2077
+Talcahuano	Mujer	80	68	88	107	5388
+Villa Alemana	Mujer	83	72	90	106	4642
+Lo Barnechea	Mujer	84	72	91	111	1912
+Pichidegua	Hombre	74	61	84	102	884
+Rengo	Hombre	73	61	83	104	2095
+Coltauco	Hombre	74	61	84	99	733
+Ñuñoa	Hombre	79	67	88	105	6446
+La Granja	Hombre	70	59	81	103	4444
+Los Álamos	Mujer	76	64	86	106	597
+Monte Patria	Hombre	77	62	84	100	1015
+San Rafael	Hombre	74	63	83	100	367
+Peralillo	Hombre	75	60	86	104	449
+Quellón	Hombre	65	51	78	99	883
+Retiro	Hombre	74	64	83	104	830
+San Pablo	Hombre	75	61	84	107	552
+La Cisterna	Mujer	84	74	90	108	4014
+Talcahuano	Hombre	72	61	82	108	5821
+Olmué	Hombre	75	65	84	100	642
+Quirihue	Mujer	82	71	89	103	478
+Cabildo	Hombre	75	61	83	101	732
+Litueche	Hombre	75.5	64	85	101	280
+Frutillar	Hombre	71	58	82	105	756
+Longaví	Mujer	77	66	86	105	936
+Monte Patria	Mujer	82	68	89	105	904
+Placilla	Mujer	78.5	65	88	102	290
+Collipulli	Hombre	72	60	82	102	1020
+Villa Alemana	Hombre	76	64	85	108	4390
+La Unión	Hombre	73	61	83	102	1769
+Calera	Mujer	79	69	87	105	1918
+Galvarino	Hombre	74	60	84	102	613
+Las Condes	Hombre	81	71	88	114	8841
+Curanilahue	Hombre	71	59	82	102	1266
+Corral	Hombre	77	65	84	106	259
+Ignorada	Mujer	26	20	41	56	13
+Los Vilos	Hombre	73	60	83	101	793
+Concepción	Mujer	81	70	89	116	7715
+Puyehue	Hombre	71	58	82.5	101	547
+El Monte	Mujer	80	66	88	105	940
+Saavedra	Mujer	81	69	88	105	538
+Tirúa	Hombre	68	50	81	99	434
+Melipilla	Mujer	80	66	88	105	3933
+Llaillay	Hombre	74	62	83	104	962
+Illapel	Hombre	74	63	83	101	1220
+Llanquihue	Hombre	73	60	82	101	636
+Teodoro Schmidt	Mujer	80	69	88.75	106	610
+Talagante	Hombre	73	61	82	105	2343
+Lebu	Hombre	74	59	84	103	1008
+Macul	Hombre	76	63	85	106	4005
+Aisén	Hombre	66	52	79	101	853
+Providencia	Hombre	79	67	88	106	5096
+San Ramón	Hombre	72	59	81	104	3827
+Angol	Mujer	80	68.25	88	109	1930
+Paredones	Mujer	83	73	90.25	104	248
+Gorbea	Hombre	76	62	84	103	768
+Chañaral	Hombre	72	61	81	102	481
+Cartagena	Hombre	72	59	82	99	1062
+Las Cabras	Hombre	75	62	85	113	982
+San Pedro de la Paz	Mujer	77	64	87	105	3209
+La Cisterna	Hombre	76	64	85	102	3741
+Chillán	Mujer	79	67	88	111	6368
+Curarrehue	Hombre	74	58	83	100	305
+La Florida	Mujer	80	69	88	107	11571
+San Miguel	Mujer	84	72	90	110	5032
+Coihaique	Mujer	77	63	87	108	1265
+Taltal	Hombre	71	57	81	97	433
+San Rosendo	Hombre	73.5	60	81.75	97	170
+San Pedro de Atacama	Hombre	62.5	43.5	77	102	200
+El Tabo	Hombre	73	63	82	102	574
+Concón	Hombre	73	62	83	101	1225
+Santa María	Hombre	77	63	84	107	525
+Purén	Hombre	75	60	84	102	610
+San Pedro	Mujer	79	66	89	102	263
+El Bosque	Hombre	71	58	81	107	5747
+Paillaco	Mujer	81	69	88	105	773
+San Felipe	Hombre	73	60	83	105	2819
+San Carlos	Hombre	74	62	83	105	2461
+Fresia	Hombre	72	59.25	82	102	638
+Peumo	Hombre	74	62	83	105	597
+Antuco	Hombre	78	65	85	101	185
+Limache	Hombre	76	65	84	104	2127
+Ancud	Hombre	73	60	83	106	1802
+San Juan de la Costa	Hombre	71	56	82	102	526
+Padre Las Casas	Hombre	72	57	82	107	2539
+Providencia	Mujer	87	78	93	111	6663
+Mejillones	Hombre	67	52.75	78	100	292
+Parral	Hombre	74	61	83	105	1802
+El Quisco	Hombre	74	62	82	101	688
+Vilcún	Hombre	72	59.25	83	100	1042
+Malloa	Hombre	72.5	60	82.25	101	560
+Los Ángeles	Mujer	79	66	87	109	5886
+Pelarco	Hombre	76	62.25	86	100	322
+Ránquil	Hombre	75	62	83	101	329
+Pucón	Mujer	81	70	89	104	765
+Cabrero	Hombre	72	60	83	109	1045
+Talca	Mujer	79	68	87	110	7308
+Pozo Almonte	Hombre	67	54.5	79	103	383
+La Serena	Mujer	80	67	88	107	6427
+Osorno	Mujer	79	68	88	114	5956
+La Estrella	Hombre	75.5	64	85.75	98	166
+San Ignacio	Mujer	78	66	86.25	104	548
+Buin	Mujer	78.5	65	87	107	2404
+Nueva Imperial	Hombre	74	60	83	106	1600
+Peñaflor	Mujer	79	67	88	114	2643
+Pinto	Hombre	73.5	59	82	103	522
+Renaico	Hombre	72	59	81	102	409
+Las Cabras	Mujer	79	66	87	103	754
+Santa Juana	Hombre	74	62	83	105	697
+San Joaquín	Mujer	82	71	89	106	3786
+Diego de Almagro	Hombre	72	54.5	83	106	335
+Punta Arenas	Mujer	80	68	88	110	4373
+Constitución	Hombre	70	57	81	102	1590
+Padre Hurtado	Hombre	72	58	81	104	1813
+San Vicente	Hombre	75	62	84	106	1767
+Vallenar	Hombre	75	62	83	103	1949
+Paillaco	Hombre	75	61	84	104	1021
+Limache	Mujer	82	72	89.5	108	1975
+Codegua	Hombre	73	59	84	98	454
+Chonchi	Hombre	70	54	81	100	565
+Colina	Mujer	75	61	85	108	2437
+Pichilemu	Hombre	71	59	82	99	640
+Cerro Navia	Mujer	77	66	86	106	4814
+Cunco	Hombre	76	62	84	102	904
+Graneros	Mujer	77	66	86	104	875
+Nueva Imperial	Mujer	81	69	89	107	1257
+Coihueco	Mujer	79	65	87	107	776
+Curacaví	Mujer	77	66	87	107	977
+Yumbel	Hombre	73	62	83	100	1047
+Yerbas Buenas	Hombre	73	62	83	104	711
+Villa Alegre	Hombre	75	64	84	99	676
+Hualpén	Mujer	79	69	87	106	2941
+Calbuco	Mujer	82	70	89	112	1090
+Penco	Hombre	71	60	81	104	1574
+San Esteban	Hombre	75	65	85	102	603
+Hualqui	Mujer	79	68	88	106	731
+Huara	Mujer	80	64	89	98	45
+Nacimiento	Hombre	74	60	83	106	1019
+Río Negro	Hombre	73	62	83	101	689
+La Cruz	Hombre	76	65	84	103	605
+Illapel	Mujer	82	70	89	108	1042
+Andacollo	Hombre	75	61	84	104	431
+Cunco	Mujer	82	71	89	109	764
+San Ignacio	Hombre	72	60	82	100	806
+Macul	Mujer	83	72	90	108	4180
+Putaendo	Hombre	75	63	84	104	768
+Porvenir	Hombre	71.5	57	81	100	230
+Doñihue	Hombre	72	59	83	102	687
+Mejillones	Mujer	74	61	83	101	221
+Rauco	Hombre	73	59	83	103	429
+Puqueldón	Hombre	70	53	83	102	177
+Mulchén	Hombre	74	61	83	107	1199
+Florida	Hombre	75	65	83	99	522
+Machalí	Hombre	72	60	82	102	1257
+María Elena	Hombre	66	55.5	74.5	90	111
+Requínoa	Mujer	77	65	86	110	572
+Los Lagos	Hombre	72	59	82	101	841
+Coelemu	Hombre	74	61	83	104	706
+Isla de Maipo	Hombre	73	60	82	109	1065
+Coihueco	Hombre	73	61	82	103	988
+Cisnes	Mujer	77	61.25	86	104	90
+Lo Espejo	Mujer	80	67	88	118	3738
+Canela	Hombre	79	64	88	104	412
+Pemuco	Hombre	74	60	83.25	107	388
+Casablanca	Hombre	76	64	85	104	978
+Ancud	Mujer	79	68	87	109	1431
+Calera de Tango	Mujer	81	68	88	103	569
+Nogales	Mujer	81	69	88	104	746
+Chépica	Hombre	76	63	85	104	696
+Melipeuco	Hombre	77	63	86	101	309
+Algarrobo	Mujer	81	69	90	105	480
+Alto Biobío	Hombre	62	40.25	75	97	234
+Pucón	Hombre	71	56	82	105	905
+Graneros	Hombre	71	57	82	100	1058
+Lampa	Mujer	74	60	85	103	1886
+Chiguayante	Mujer	80	68	88	109	2498
+Hualpén	Hombre	73	60	82	103	2999
+Marchihue	Mujer	81.5	71.75	90	102	256
+El Carmen	Hombre	74	60	83	98	639
+Pitrufquén	Hombre	75	62	83	104	1193
+Chaitén	Hombre	68	56	82	103	153
+Catemu	Mujer	80	67	88	101	405
+Mariquina	Mujer	79	67	87	105	681
+Tomé	Mujer	80	69	88	108	2028
+Cerrillos	Mujer	80	68	88	109	2337
+Punitaqui	Hombre	76	63	84	100	423
+Yerbas Buenas	Mujer	77	65	87	105	524
+Isla de Maipo	Mujer	78	66	87.25	105	896
+Paine	Mujer	78	65	87	105	1693
+La Reina	Mujer	85	76	92	111	3603
+Requínoa	Hombre	73	59	83	102	825
+El Carmen	Mujer	80	69	88	105	460
+Cochrane	Hombre	71	59	83	99	103
+Quirihue	Hombre	74	61	84	100	677
+Laja	Hombre	74	61	83	100	902
+Ñuñoa	Mujer	86	77	92	110	8764
+Saavedra	Hombre	72	56	83	104	836
+Vicuña	Mujer	80	68	89	105	785
+Yungay	Hombre	75	63	83	104	773
+Quemchi	Hombre	75	56	83	100	397
+Rinconada	Hombre	75	64	84	100	314
+Lautaro	Hombre	72	60	83	104	1509
+Chimbarongo	Hombre	74	61	84	102	1373
+Santa Cruz	Mujer	79	68	88	108	1312
+Renca	Mujer	76	64	86	110	3948
+Rancagua	Mujer	78	65	87	110	7689
+Huechuraba	Mujer	77	67	85	106	2549
+Pedro Aguirre Cerda	Hombre	72	60	83	103	4675
+Independencia	Mujer	82	70	90	121	4535
+Ovalle	Hombre	75	61	85	107	3987
+Santo Domingo	Hombre	77	61	84.75	100	342
+Tiltil	Mujer	77	64	86	102	467
+Cisnes	Hombre	68	53	81	98	187
+Iquique	Mujer	78	65	87	106	5212
+Natales	Hombre	72	61	82	99	1007
+Purranque	Mujer	80.5	71.25	87	104	778
+Negrete	Hombre	73	60	83	102	437
+Pirque	Hombre	75	64	84	103	723
+Carahue	Hombre	71	57	82	106	1224
+Pumanque	Hombre	78	66	86	105	174
+Purranque	Hombre	73	61	83	103	998
+Rinconada	Mujer	81	68.5	87.5	104	239
+Caldera	Hombre	70	57.5	80	100	539
+Tucapel	Mujer	81	71	88	103	583
+Pichidegua	Mujer	79	66	87	100	586
+Cholchol	Hombre	75	61	84	103	528
+Tocopilla	Mujer	78	66	86	101	898
+Colbún	Hombre	75	65	83	117	846
+Doñihue	Mujer	79	66	87	101	587
+Alhué	Hombre	73	60.5	84	99	219
+Victoria	Mujer	80	68	88	104	1356
+Lolol	Hombre	77	66	86.75	102	286
+Toltén	Hombre	75	61	85	102	525
+Mostazal	Mujer	77	64	86	105	693
+San Vicente	Mujer	80	68	88	106	1458
+Tirúa	Mujer	73	60	84	111	318
+Lanco	Hombre	73	62	84	102	780
+Nacimiento	Mujer	78	67.75	87	107	820
+Calera de Tango	Hombre	72	60	82	102	721
+Los Muermos	Hombre	72	60	82	102	812
+Quinta de Tilcoco	Hombre	73.5	61	83	100	520
+Laja	Mujer	78	66	86	104	771
+Quinta Normal	Mujer	82.5	71	89	113	4512
+Pitrufquén	Mujer	82	69	89	107	973
+Empedrado	Hombre	75	64	83	105	146
+Quellón	Mujer	76	59	87	102	596
+San Clemente	Mujer	77	64.5	86	108	1203
+San Felipe	Mujer	81	69	88	107	2627
+Tocopilla	Hombre	70	60	80	99	1037
+Diego de Almagro	Mujer	78	63.25	86	108	226
+Castro	Mujer	80	68	88	108	1597
+Chonchi	Mujer	80	69	88	102	498
+Aisén	Mujer	77	64	86	105	562
+Llaillay	Mujer	79	68	87	108	845
+Tierra Amarilla	Hombre	68	53	81	95	384
+Lautaro	Mujer	79	65	87	104	1274
+Chépica	Mujer	80	68	88	105	540
+Cañete	Mujer	77	65	86	105	1153
+Queilén	Hombre	69	55	83	102	265
+Lumaco	Hombre	72	56	83	98	429
+Papudo	Hombre	74	59	82	98	221
+Putaendo	Mujer	80	69	87	103	658
+Salamanca	Hombre	76	64	84	108	949
+Bulnes	Hombre	74	62	83	103	951
+Collipulli	Mujer	76	63	86	103	781
+San Esteban	Mujer	80	67	88	106	533
+Punitaqui	Mujer	81	69.75	88	104	308
+Curacautín	Mujer	81	70	88	105	710
+Treguaco	Hombre	74	60	82	100	249
+Isla de Pascua	Hombre	68	56	75	99	181
+Lebu	Mujer	77	65	87	109	868
+Río Claro	Hombre	74	61	84	101	531
+Chillán Viejo	Hombre	73	60	82	102	796
+Rengo	Mujer	79	67	87	111	1819
+Panguipulli	Mujer	79	66	87	106	1176
+Palena	Hombre	71	62	82	101	75
+Hualañé	Hombre	76.5	65	85	106	492
+Coinco	Hombre	76	63	84	105	313
+Maullín	Mujer	79	67.75	87.25	107	496
+Río Negro	Mujer	79	68	87	107	545
+Maule	Mujer	75	62	85	107	800
+Los Muermos	Mujer	79	66	87.5	102	591
+Río Ibáñez	Hombre	74	61	83	98	147
+Paredones	Hombre	78	65	86	103	306
+Lago Ranco	Hombre	71	57	82	100	546
+Palmilla	Hombre	75.5	61	84	100	466
+La Ligua	Mujer	80	68	87	107	1151
+Pichilemu	Mujer	79	67	88	104	525
+Pica	Hombre	75	62	86	99	151
+Portezuelo	Hombre	73	62	84	97	268
+San Fabián	Hombre	76	61.75	84	101	192
+Calle Larga	Hombre	74	59	83	101	399
+Petorca	Hombre	75	63	83	101	427
+Quintero	Mujer	79	67	87	105	986
+Zapallar	Hombre	75	62.5	84	100	267
+Maule	Hombre	69	57	81	105	991
+Combarbalá	Hombre	78	68	85.75	102	682
+Molina	Mujer	78	67	87	106	1541
+Chimbarongo	Mujer	77	65	87	104	1034
+Dalcahue	Hombre	73	56.5	83	104	503
+Curanilahue	Mujer	77	64	86	104	1076
+Pirque	Mujer	80	66	88	106	646
+Vichuquén	Hombre	75.5	64.25	85	95	158
+Sagrada Familia	Hombre	74	61	83	100	727
+Santa María	Mujer	81	68.25	88	104	426
+Peralillo	Mujer	78	67.5	88	110	371
+Contulmo	Hombre	72	59	83	101	323
+Lonquimay	Hombre	73	55.5	83	98	419
+Licantén	Hombre	75	65	85	101	314
+Colbún	Mujer	79	66	88	108	609
+Placilla	Hombre	74	60	85	106	360
+Puerto Varas	Mujer	80	69	88	106	1074
+Padre Las Casas	Mujer	79	66	87	111	2175
+Futaleufú	Hombre	74	57	83	104	85
+Ercilla	Mujer	77	63	86	101	337
+La Higuera	Hombre	74	64	84	97	129
+Maullín	Hombre	74	61	83	103	666
+Constitución	Mujer	77	64	86	106	1275
+Traiguén	Mujer	81	70	88	105	924
+Pelluhue	Hombre	74	60	84	100	300
+Chanco	Mujer	81	68	89	102	339
+Peumo	Mujer	79	65	88	106	463
+Pemuco	Mujer	80	68.5	88	100	295
+San Nicolás	Hombre	74	61	82	100	460
+Santa Juana	Mujer	79	68	87	106	505
+Huasco	Hombre	72	58.5	83	99	355
+Taltal	Mujer	78	63	87	102	335
+Cabrero	Mujer	78	67	87	112	869
+Máfil	Hombre	71	57	84.25	101	284
+Los Lagos	Mujer	77	65	87	104	639
+El Tabo	Mujer	79	67.75	87	104	432
+Quinchao	Hombre	71	53.75	81.25	100	408
+Curepto	Hombre	78	66	84	102	530
+Alto del Carmen	Hombre	79	67	86	107	190
+Chañaral	Mujer	77	65	85.5	100	391
+Santo Domingo	Mujer	81	68	89	104	295
+Villarrica	Mujer	79	67	88	115	1750
+Huara	Hombre	72.5	56	83.75	106	70
+Puchuncaví	Hombre	74	61	82	103	771
+Ñiquén	Hombre	75	64	85	105	516
+Carahue	Mujer	80	68	88	110	882
+Natales	Mujer	78	67	87	105	738
+Vilcún	Mujer	78	66	87	104	851
+Vallenar	Mujer	80	67	88	105	1722
+Lanco	Mujer	79	68	87	104	639
+Algarrobo	Hombre	74	63	83	101	580
+Curepto	Mujer	83	74	90	103	406
+Curaco de Vélez	Hombre	74	58	83	102	137
+Chile Chico	Hombre	70	56	81	102	212
+Lo Prado	Mujer	80	70	87	105	3330
+Coltauco	Mujer	78	68	88	106	589
+Cobquecura	Hombre	76	63	84	99	274
+La Unión	Mujer	80	69	88	111	1384
+Talagante	Mujer	79	66	87	106	2037
+Perquenco	Hombre	74	60.5	83	101	295
+Río Claro	Mujer	77	65	85	101	348
+San Pedro de Atacama	Mujer	76	55.25	88	105	152
+Hualañé	Mujer	80	68	88	104	337
+Toltén	Mujer	82	72	89	105	371
+Navidad	Hombre	78	66	86	100	346
+Puyehue	Mujer	78	65	87	102	381
+Puchuncaví	Mujer	82	71	88	103	591
+Vitacura	Mujer	87	76	93	110	2769
+Juan Fernández	Hombre	78	67.5	86.5	89	19
+Olivar	Mujer	78	66	88	104	353
+Purén	Mujer	80	67	88	106	453
+Salamanca	Mujer	80	69	88	103	789
+Arauco	Mujer	80	67	88	106	1002
+Frutillar	Mujer	79	67	88	101	581
+Tierra Amarilla	Mujer	76	60.5	87	104	247
+Queilén	Mujer	83	68.5	91	108	171
+Machalí	Mujer	78	65	86	108	1134
+Puerto Octay	Mujer	79.5	66	87	103	234
+Curarrehue	Mujer	77	63	86	102	217
+Retiro	Mujer	79	67	87	109	610
+María Pinto	Mujer	78	64.75	87	103	356
+Cochrane	Mujer	79	64	88	106	71
+Quinta de Tilcoco	Mujer	78	65	89	102	376
+Pinto	Mujer	81	72	89	108	401
+Quilaco	Hombre	78	68	85	100	193
+Chile Chico	Mujer	79	68.25	87	102	102
+Colchane	Hombre	64.5	44.5	85.25	97	24
+Pelluhue	Mujer	81	69	90	100	210
+Gorbea	Mujer	83	71	90	104	608
+Treguaco	Mujer	81	67	90	102	181
+Futaleufú	Mujer	81	64	87.5	103	71
+Concón	Mujer	81	68	88.25	109	1176
+Andacollo	Mujer	79	67	88	105	343
+Pica	Mujer	82.5	63	89.25	102	144
+Quilaco	Mujer	79	70	87	114	157
+Negrete	Mujer	79	65	87	106	295
+Río Hurtado	Hombre	80	69	88	102	190
+Loncoche	Mujer	81	69.25	87.75	105	902
+Freirina	Hombre	74	63	84	97	269
+Mulchén	Mujer	80	67	87	105	1029
+Antuco	Mujer	82	71	88	101	155
+Freire	Mujer	81	70	88	105	896
+Ránquil	Mujer	81	70	88	101	255
+Chaitén	Mujer	76	57.5	86.75	98	94
+Parral	Mujer	80	69	88	109	1448
+Huasco	Mujer	78	64	88	102	297
+Máfil	Mujer	80	67	88	104	265
+San Juan de la Costa	Mujer	77	65	87	105	331
+Camiña	Mujer	86	82.75	86.75	96	14
+Licantén	Mujer	83.5	71.25	90	108	246
+Lolol	Mujer	81.5	68.25	90	102	226
+Dalcahue	Mujer	83	70	89	107	422
+Calle Larga	Mujer	78	68	87	103	343
+La Cruz	Mujer	80	68	88	109	543
+Hijuelas	Mujer	78	66	87	105	493
+Chillán Viejo	Mujer	79	66	88	104	727
+Paiguano	Hombre	77	65	86	100	162
+Panquehue	Mujer	79	69	87	107	211
+Coinco	Mujer	81	70	89	106	195
+Casablanca	Mujer	81	68	89	103	796
+Coelemu	Mujer	80	70	87	107	609
+Renaico	Mujer	77.5	66.25	86	102	338
+Empedrado	Mujer	81.5	67	88	97	102
+Río Hurtado	Mujer	82	68	89	105	194
+Navidad	Mujer	83	73	90	103	249
+Rauco	Mujer	79	68	88	110	334
+Romeral	Mujer	79	65	87.5	102	363
+Santa Bárbara	Mujer	80	70	89	109	504
+Canela	Mujer	84.5	72.5	90	103	322
+Pumanque	Mujer	83	76.25	90	105	114
+Alto del Carmen	Mujer	80	69	88	104	161
+Sierra Gorda	Mujer	63	46.5	74.75	92	18
+Putre	Mujer	86	75	92	100	17
+Porvenir	Mujer	79	68.75	86	102	140
+Curaco de Vélez	Mujer	84	75	91	102	161
+Lonquimay	Mujer	78	64.75	87	107	292
+Zapallar	Mujer	81	69.25	89	107	206
+Cholchol	Mujer	82	72	89	103	444
+Tortel	Mujer	73	68	83	92	7
+Palmilla	Mujer	79	67	87	102	321
+Hualaihué	Mujer	77	65	87	102	247
+Quinchao	Mujer	83	74	90	104	328
+Portezuelo	Mujer	80	72	87	104	193
+Panquehue	Hombre	75	62	84	97	263
+Paiguano	Mujer	83	74	90	102	122
+Caldera	Mujer	77	62	86	104	395
+Isla de Pascua	Mujer	71	61	80	103	135
+O'Higgins	Hombre	73	66.5	83	87	11
+Ñiquén	Mujer	81.5	70	88	101	388
+Codegua	Mujer	77	64	86	102	340
+Nancagua	Mujer	79	67	87	106	581
+Primavera	Hombre	69.5	56.5	80.25	81	4
+Pelarco	Mujer	79	69	88	110	253
+San Rosendo	Mujer	79	68	85	101	152
+San Rafael	Mujer	78	66.25	86	98	238
+Vichuquén	Mujer	83	68.75	89	105	152
+Colchane	Mujer	65	38	86.5	97	19
+María Elena	Mujer	67	57.5	78.25	100	68
+Corral	Mujer	79	70	87	101	182
+Lumaco	Mujer	76	62	88	105	321
+Puqueldón	Mujer	85	73.75	91	109	160
+Litueche	Mujer	80	68.75	89	103	196
+Antártica	Hombre	55	54.5	57.5	60	3
+Ninhue	Mujer	80	69	88	105	225
+Freirina	Mujer	79	63	88	102	177
+Futrono	Mujer	77	65	85	103	460
+Quilleco	Mujer	80	70	88	104	339
+La Higuera	Mujer	78	66.5	86.5	105	79
+Papudo	Mujer	79	64	87	101	197
+Lago Verde	Hombre	77.5	63	84.75	100	34
+La Estrella	Mujer	83	77	91	100	125
+Sierra Gorda	Hombre	62.5	52	74.5	88	28
+O'Higgins	Mujer	82	61.75	88.75	97	4
+Cochamó	Mujer	83.5	75	89	101	114
+Timaukel	Hombre	33.5	30.75	36.25	39	2
+Cobquecura	Mujer	83	68.75	91	103	196
+Camarones	Hombre	76	62.75	80	93	12
+Pencahue	Mujer	82	71	91	107	237
+Torres del Paine	Hombre	68	56.75	73.25	88	6
+Ollagüe	Mujer	80	67	86.5	93	3
+Talca	Indeterminado	0	0	0	0	4
+Villa Alegre	Indeterminado	0	0	0	0	1
+Penco	Indeterminado	0	0	0	0	1
+Cabo de Hornos	Hombre	70	52	81	93	11
+San Fabián	Mujer	81	72	88	107	121
+Lago Verde	Mujer	83	74	87	104	17
+Rancagua	Indeterminado	0	0	0	0	4
+Maule	Indeterminado	0	0	0	0	1
+Curanilahue	Indeterminado	0	0	0	0	1
+Chillán	Indeterminado	0	0	0	0	1
+Osorno	Indeterminado	0	0	0	0	3
+Padre Las Casas	Indeterminado	0	0	0	0	2
+Peñalolén	Indeterminado	0	0	0	0	3
+Victoria	Indeterminado	0	0	0	0	1
+Temuco	Indeterminado	0	0	0	0	6
+Vilcún	Indeterminado	0	0	0	0	3
+Llaillay	Indeterminado	0	0	0	0	1
+Río Bueno	Indeterminado	0	0	0	0	1
+Quinta Normal	Indeterminado	0	0	0	0	2
+Antártica	Mujer	90	90	90	90	1
+Puente Alto	Indeterminado	0	0	0	0	4
+Peñaflor	Indeterminado	0	0	0	0	1
+Ollagüe	Hombre	68	68	68	68	1
+Independencia	Indeterminado	0	0	0	0	2
+San Ignacio	Indeterminado	0	0	0	0	1
+La Pintana	Indeterminado	0	0	0	0	2
+Castro	Indeterminado	0	0	0	0	1
+Iquique	Indeterminado	0	0	0	0	2
+Colina	Indeterminado	0	0	0	0	3
+La Granja	Indeterminado	0	0	0	0	4
+Las Condes	Indeterminado	0	0	0	0	1
+Palena	Mujer	80	65	89	102	37
+Laguna Blanca	Hombre	66.5	57.5	69.75	72	4
+Nueva Imperial	Indeterminado	0	0	0	0	2
+Cerro Navia	Indeterminado	0	0	0	0	3
+Concepción	Indeterminado	0	0	0	0	4
+Conchalí	Indeterminado	0	0	0	0	1
+Renca	Indeterminado	0	0	0	0	4
+Cabo de Hornos	Mujer	77	68	89.75	93	6
+Calera de Tango	Indeterminado	0	0	0	0	1
+Galvarino	Indeterminado	0	0	0	0	1
+San Fernando	Indeterminado	0	0	0	0	1
+Ñiquén	Indeterminado	0	0	0	0	1
+Loncoche	Indeterminado	0	0	0	0	1
+Puchuncaví	Indeterminado	0	0	0	0	1
+Cabildo	Indeterminado	0	0	0	0	1
+Recoleta	Indeterminado	0	0	0	0	1
+General Lagos	Hombre	45	26.5	91	93	7
+Cerrillos	Indeterminado	0	0	0	0	1
+Melipilla	Indeterminado	0	0	0	0	1
+Huechuraba	Indeterminado	0	0	0	0	1
+Padre Hurtado	Indeterminado	0	0	0	0	1
+Lampa	Indeterminado	0	0	0	0	1
+Lo Barnechea	Indeterminado	0	0	0	0	1
+Primavera	Mujer	80	70	90	100	2
+San Gregorio	Hombre	85	83.5	86.5	88	2
+San Pedro de la Paz	Indeterminado	0	0	0	0	2
+Valparaíso	Indeterminado	0	0	0	0	2
+Teno	Indeterminado	0	0	0	0	1
+Malloa	Indeterminado	0	0	0	0	1
+Alto Hospicio	Indeterminado	0	0	0	0	1
+Longaví	Indeterminado	0	0	0	0	2
+Coronel	Indeterminado	0	0	0	0	1
+Puerto Montt	Indeterminado	0	0	0	0	2
+San Juan de la Costa	Indeterminado	0	0	0	0	1
+Bulnes	Indeterminado	0	0	0	0	1
+Lautaro	Indeterminado	0	0	0	0	1
+La Florida	Indeterminado	0	0	0	0	1
+Curicó	Indeterminado	0	0	0	0	1
+Valdivia	Indeterminado	0	0	0	0	2
+Vicuña	Indeterminado	0	0	0	0	2
+San Miguel	Indeterminado	0	0	0	0	1
+Ovalle	Indeterminado	0	0	0	0	1
+Panguipulli	Indeterminado	0	0	0	0	1
+Pitrufquén	Indeterminado	0	0	0	0	1
+San Rafael	Indeterminado	0	0	0	0	1
+Petorca	Indeterminado	0	0	0	0	1
+Coquimbo	Indeterminado	0	0	0	0	1
+Río Claro	Indeterminado	0	0	0	0	1
+Torres del Paine	Mujer	48	26	70	92	2
+San Felipe	Indeterminado	0	0	0	0	1
+San Pedro de Atacama	Indeterminado	0	0	0	0	1
+Valparaíso	Mujer	81	69	88	109	11533
+Romeral	Hombre	73	60	82	98	576
+Futrono	Hombre	71	56	82	100	620
+Las Condes	Mujer	87	77	93	112	10701
+Estación Central	Hombre	72	58	82	104	4946
+San Carlos	Mujer	80	69	88	109	2131
+El Quisco	Mujer	80	67.5	88.5	108	519
+Yumbel	Mujer	80	69	88	107	859
+Lago Ranco	Mujer	79	68	88	108	385
+Los Vilos	Mujer	79	66	88	104	595
+Cauquenes	Hombre	76	62	85	104	2120
+Ovalle	Mujer	80	67	88	108	3408
+Molina	Hombre	72	60	82	101	1905
+Chanco	Hombre	76	63	85	101	413
+Teodoro Schmidt	Hombre	72	56	83	100	826
+Quillota	Mujer	82	70	89	108	3494
+Malloa	Mujer	78.5	67.75	87.25	102	464
+Quillón	Mujer	80	68	88	104	646
+Fresia	Mujer	79	68	88	104	514
+Pozo Almonte	Mujer	74	58.5	84	103	230
+Tortel	Hombre	59	51	78.5	96	19
+Río Bueno	Mujer	79	68	87	108	1268
+Río Ibáñez	Mujer	78	65.75	89	97	72
+Marchihue	Hombre	75	65	85	102	328
+Camiña	Hombre	76	64	85	101	33
+Bulnes	Mujer	79	67.5	88	107	779
+Villa Alegre	Mujer	81	71	89	105	526
+Sagrada Familia	Mujer	77	66	85.75	100	546
+Petorca	Mujer	82	70	89	106	346
+Yungay	Mujer	80	69	88	105	654
+Olmué	Mujer	81	70	89	105	631
+San Pablo	Mujer	81	71.25	88	104	382
+Guaitecas	Hombre	61	47	78	97	49
+Alhué	Mujer	79	65	89.25	106	156
+Guaitecas	Mujer	69	60	86	98	23
+Camarones	Mujer	86	74	90	99	9
+Ancud	Indeterminado	0	0	0	0	2
+El Carmen	Indeterminado	0	0	0	0	1
+Pudahuel	Indeterminado	0	0	0	0	2
+Dalcahue	Indeterminado	0	0	0	0	1
+Arica	Indeterminado	0	0	0	0	3
+Santiago	Indeterminado	0	0	0	0	3
+Molina	Indeterminado	0	0	0	0	2
+Maipú	Indeterminado	0	0	0	0	5
+Paine	Indeterminado	0	0	0	0	1
+Villarrica	Indeterminado	0	0	0	0	1
+Villa Alemana	Indeterminado	0	0	0	0	1
+Lebu	Indeterminado	0	0	0	0	2
+La Cisterna	Indeterminado	0	0	0	0	1
+Linares	Indeterminado	0	0	0	0	3
+Talagante	Indeterminado	0	0	0	0	2
+Quilicura	Indeterminado	0	0	0	0	2
+Rengo	Indeterminado	0	0	0	0	1
+El Bosque	Indeterminado	0	0	0	0	1
+La Serena	Indeterminado	0	0	0	0	1
+Isla de Maipo	Indeterminado	0	0	0	0	1
+Florida	Mujer	79	68	88	105	386
+Lota	Mujer	77	67	85	107	1718
+Vitacura	Hombre	82	72	89	104	2596
+Penco	Mujer	79	68	88	106	1481
+Melipeuco	Mujer	81	69	89	103	241
+San Gregorio	Mujer	63	54.5	74.5	86	3
+General Lagos	Mujer	65.5	41.5	80	92	4
+Juan Fernández	Mujer	79	70	82.75	97	16
+San Bernardo	Indeterminado	0	0	0	0	5
+Antofagasta	Indeterminado	0	0	0	0	5
+Calama	Indeterminado	0	0	0	0	2
+San José de Maipo	Mujer	80.5	68	89	106	544
+Quillón	Hombre	74	62	83	100	797
+Río Verde	Hombre	64	64	64	64	1
+Ninhue	Hombre	74	62	83	101	274
+San Nicolás	Mujer	78	66	87	101	359
+Chile	Mujer	80	68	88	123	545421
+Chile	Hombre	73	60	82	126	609190
+Chile	Indeterminado	0	0	0	0	163
