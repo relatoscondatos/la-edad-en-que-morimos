@@ -6,6 +6,9 @@ sql:
   statsPorComuna: data/percentilesPorComuna.parquet
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
 ## Distribución de defunciones en Chile (2013 a 2024)
 
 
