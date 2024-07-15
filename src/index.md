@@ -3,9 +3,11 @@ sql:
   defuncionesPorComuna: data/defuncionesPorComuna.parquet
   defuncionesChilePorEdad: data/defuncionesChilePorEdad.parquet
   defuncionesPorComunaEdad: data/defuncionesPorComunaEdad.parquet
+  statsPorComuna: data/percentilesPorComuna.parquet
 ---
 
 ## Distribución de defunciones en Chile (2013 a 2024)
+
 
 ```sql id=dataDefuncionesChilePorEdad
 SELECT *
@@ -13,23 +15,40 @@ FROM defuncionesChilePorEdad
 ```
 
 ```js
+import {buildDistChart} from "./components/distributionChart.js";
+```
+
+
+```js
 buildDistChart(dataDefuncionesChilePorEdad)
 ```
 
 ## Defunciones por comuna
 
-```sql
-SELECT *
-FROM defuncionesPorComuna  
-LIMIT 10
+```js
+const comuna = view(Inputs.select(_.map(dataComunas.toArray(),d => d.comuna), { label: "Comuna"}));
 ```
 
-## Defunciones por comuna y edad
+```js
+const dataComuna = _.chain([...dataDefuncionesPorComunaEdad])
+      .filter((d) => d.comuna == comuna)
+      .sortBy((d) => d.edad)
+      .value()
+```
 
-```sql
+```sql id=dataStataPorComuna display
 SELECT *
-FROM defuncionesPorComunaEdad  
-LIMIT 10
+FROM statsPorComuna 
+WHERE comuna = ${comuna}
+```
+
+
+```js
+buildDistChart(dataComuna)
+```
+
+```js
+Inputs.table(dataComuna)
 ```
 
 ```sql id=dataDefuncionesPorComunaEdad
@@ -38,57 +57,25 @@ FROM defuncionesPorComunaEdad
 
 ```
 
+```sql id=dataComunas
+SELECT DISTINCT comuna
+FROM statsPorComuna  
+WHERE n >= 1000
+ORDER BY comuna
+```
+
+
 ```sql id=dataDefuncionesPorComuna
 SELECT *
 FROM defuncionesPorComuna  
 ORDER BY defunciones DESC
 ```
 
-<div class="hero2">
-  <h1>Distribución de defunciones en Chile</h1>
-</div>
-
-<div class="card">${plot1}</div>
-
-
-```js
-display([...dataDefuncionesPorComunaEdad])
-```
-
-```js
-display(getCurve({comuna:"Las Condes"}))
-```
-```js
-display(buildChartCurve({comuna:"Providencia"}))
-```
-
-```js
-display(buildChartCurve({comuna:"Las Condes"}))
-```
-
-```js
-display(buildChartCurve({comuna:"Renca"}))
-```
 
 
 
-```js
-const plot1 = Plot.plot({
-  title: `Defunciones por comuna`,
-  marginLeft:100,
 
-  width: width,
-  
-  marks: [
-    Plot.barX(dataDefuncionesPorComuna, {
-      x: "defunciones",
-      y: "comuna",
-      sort:{y:"x",reverse:true, limit:50}
-    }),
-  ],
-});
-display(plot1)
-```
+
 
 ```js
 function getCurve(options) {
@@ -105,31 +92,6 @@ function getCurve(options) {
   }
 }
 ````
-
-```js
-function buildDistChart(data) {
-
-  const dataPlot = data;
-
-  const max = _.chain(dataPlot)
-    .map((d) => d.defunciones)
-    .max()
-    .value();
-
-  return Plot.plot({
-    marginLeft: 50,
-    marks: [
-      ,
-      Plot.areaY(dataPlot, {
-        x: "edad",
-        y: "defunciones",
-        fill: (d) => "curva",
-        opacity: 1
-      }),
-    ]
-  });
-}
-```
 
 ```js
 function buildChartCurve(options) {
