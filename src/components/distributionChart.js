@@ -1,4 +1,5 @@
 import * as Plot from "npm:@observablehq/plot";
+import * as d3 from "npm:d3"; 
 import _ from "npm:lodash";
 
 
@@ -16,11 +17,19 @@ export function buildDistChart(data) {
       marks: [
         ,
         Plot.areaY(dataPlot, {
-          x: "edad",
-          y: "defunciones",
-          fill: (d) => "curva",
-          opacity: 1
-        }),
+            x: "edad",
+            y: "defunciones",
+            fill: (d) => "curva",
+            opacity: 1,
+          }),        
+          Plot.lineY(dataPlot, {
+            x: "edad",
+            y: "defunciones",
+            stroke: "grey",
+            opacity: 1,
+            tip:true,
+            title: d => `${d.edad} años, ${d3.format(",")(d.defunciones)} personas`
+          }),
       ]
     });
   }
