@@ -19,7 +19,7 @@ SELECT *
 FROM defuncionesChilePorEdad  
 ```
 
-```sql id=[statsChile] display
+```sql id=[statsChile]
 SELECT *
 FROM statsPorComuna 
 WHERE comuna = 'Chile'
@@ -29,43 +29,60 @@ WHERE comuna = 'Chile'
 const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad).value()
 ```
 
-```js
-_.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.defunciones).max().value()
-```
+<div class="grid grid-cols-2">
+  <div class="card grid-colspan-2">
+  <h2>Distribución de edad de defunciones en Chile</h2>
+  <h3>Datos de años 2014 a 2023</h3>
+  ${
+    resize((width) =>
+      buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
+      p50:statsChile.p50, 
+      p25:statsChile.p25, 
+      p75:statsChile.p75, 
+      max:maxChile,
+      mark:null,
+      width:width
+      })
+    ) 
+  }
+  </div>
+  <div class="card">
+  <h2>Mediana de edad de defunción</h2>
+  <h3>Edad bajo la cual está el 50% de las personas</h3>
+  ${
+    resize((width) =>
+      buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
+      p50:statsChile.p50, 
+      p25:statsChile.p25, 
+      p75:statsChile.p75, 
+      max:maxChile,
+      mark:"median",
+      width:width
+      })
+    ) 
+  }
+  </div>
+  <div class="card">
+  <h2>Distribución en 4 cuartiles </h2>
+  <h3>Edad bajo la cual está el 25%, 50% y 75% de las personas</h3>
+${
+    resize((width) =>
+      buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
+      p50:statsChile.p50, 
+      p25:statsChile.p25, 
+      p75:statsChile.p75, 
+      max:maxChile,
+      mark:"quartiles",
+      width:width
+      })
+    ) 
+  }
+
+  </div>
+
+</div>
 
 
-```js
-buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
-  p50:statsChile.p50, 
-  p25:statsChile.p25, 
-  p75:statsChile.p75, 
-  max:maxChile,
-  mark:null
-
-  })
-```
-
-```js
-buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
-  p50:statsChile.p50, 
-  p25:statsChile.p25, 
-  p75:statsChile.p75, 
-  max:maxChile,
-  mark:"median"
-
-  })
-```
-
-```js
-buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
-  p50:statsChile.p50, 
-  p25:statsChile.p25, 
-  p75:statsChile.p75, 
-  max:maxChile,
-    mark:"quartiles"
-
-  })
-```
 
 ## Defunciones por comuna
 
@@ -181,6 +198,7 @@ function buildChartCurve2(data,options) {
   const p50 = (options && options.p50) || null;
   const p25 = (options && options.p25) || null;
   const p75 = (options && options.p75) || null;
+  const width = (options && options.width) || 640;
 
   const dataPlot = data;
 
@@ -281,6 +299,7 @@ function buildChartCurve2(data,options) {
   ];
 
   return Plot.plot({
+    width,
     title,
     subtitle,
     marginLeft: 50,
