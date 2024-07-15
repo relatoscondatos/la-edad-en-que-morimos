@@ -21,7 +21,7 @@ summary_df.rename(columns={'COMUNA': 'comuna'}, inplace=True)
 buffer = io.BytesIO()
 
 # Convert the DataFrame to a Parquet file in memory
-summary_df.to_parquet(buffer, engine='fastparquet')
+summary_df.to_parquet(buffer, engine='pyarrow')
 
 # Write the buffer content to sys.stdout
 sys.stdout.buffer.write(buffer.getvalue())
