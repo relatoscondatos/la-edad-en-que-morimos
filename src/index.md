@@ -6,9 +6,12 @@ sql:
   statsPorComuna: data/percentilesPorComuna.parquet
 ---
 
-## A qué edad muere la gente en Chile
-### En base a datos de 2014 a 2023
+# Edad de defunción en Chile
 
+## Distribución de edad de defunción en Chile
+Esta página utiliza datos oficiales de fallecimiento en Chile publicados por el Departamento de Estadísticas e Información en Salud del Ministeriomde Salud de Chile.
+
+Se utilizan los datos de 10 años (entre 2024 y 2013) y se presenta la distribución de la edad de fallecimiento para el país y comunas específicas.
 
 <div class="grid grid-cols-1">
   <div class="card grid-colspan-1">
@@ -30,6 +33,13 @@ sql:
   }
   </div>  
   </div>  
+
+La curva de distribución muestra cómo se agrupa una mayor cantidad de personas fallecidas en edades más avanzadas.
+
+Ordenamos a todas las personas fallecidas por edad y las dividimos en dos grupos iguales; la **mediana** es la edad que divide al 50% con mayor edad y al 50% con menor edad. En Chile, la **mediana** de la edad de fallecimiento es de ${statsChile.p50} años.
+
+También podemos dividir la población en cuatro grupos (25% cada uno) y obtener así los cuartiles. El **primer cuartil** (percentil 25) incluye a las personas que fallecieron a una edad menor a ${statsChile.p25} años, y el **tercer cuartil** (percentil 75) incluye a las personas que fallecieron a una edad menor a ${statsChile.p75} años.
+
 
 <div class="grid grid-cols-2">
  
@@ -73,7 +83,7 @@ sql:
  
   <div class="card">
   <h2>Distribución de fallecimientos en Chile</h2>
-  <h3>Caja representa rango entre primer cuartil (25%) y 3er cuartil (75%)</h3>
+  <h3>La barra representa el rango entre el primer cuartil (25%) y el tercer cuartil (75%)</h3>
   ${buildBoxes([statsChile])}
   </div>
 
@@ -233,7 +243,9 @@ function buildChartCurve2(data,options) {
       x: (d) => d,
       y: maxY,
       dy: -10,
-      text: (d) => d
+      text: (d) => d,
+      fontSize: 18
+
     }),
     Plot.text([(p25 + p50) / 2, (p75 + p50) / 2], {
       x: (d) => d,
