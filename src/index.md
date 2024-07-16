@@ -41,7 +41,7 @@ const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad)
       p75:statsChile.p75, 
       max:maxChile,
       mark:null,
-      width:width,
+      width:640,
       height:height-20
       })
     ) 
@@ -58,7 +58,7 @@ ${
       p75:statsChile.p75, 
       max:maxChile,
       mark:"median",
-      width:width,
+      width:640,
       height:height-20      })
     ) 
   }
@@ -74,7 +74,7 @@ ${
       p75:statsChile.p75, 
       max:maxChile,
       mark:"quartiles",
-      width:width,
+      width:640,
       height:height-20
       })
     ) 
@@ -106,6 +106,23 @@ FROM statsPorComuna
 WHERE comuna = ${comuna}
 ```
 
+  <div class="card">
+  <h2>Mediana de edad de defunción</h2>
+  <h3>Edad bajo la cual está el 50% de las personas</h3>
+${
+    resize((width) =>
+      buildChartCurve2(dataComuna,{
+      p50:statsChile.p50, 
+      p25:statsChile.p25, 
+      p75:statsChile.p75, 
+      max:maxChile,
+      mark:"quartiles",
+      width:640,
+      height:320
+})
+    ) 
+  }
+  </div>
 
 ```js
 buildChartCurve2(dataComuna,{
@@ -258,7 +275,7 @@ function buildChartCurve2(data,options) {
   return Plot.plot({
     width,
     height,
-    title: height,
+    title: `${width} x ${height}`,
     subtitle,
     marginLeft: 50,
     x:{domain:[0,120]},
