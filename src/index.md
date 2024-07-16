@@ -29,19 +29,20 @@ WHERE comuna = 'Chile'
 const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad).value()
 ```
 
-<div class="grid grid-cols-2">
+<div class="grid grid-cols-2" style="grid-auto-rows: 240px;">
   <div class="card grid-colspan-2">
   <h2>Distribución de edad de defunciones en Chile</h2>
   <h3>Datos de años 2014 a 2023</h3>
   ${
-    resize((width) =>
+    resize((width, height) =>
       buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
       p50:statsChile.p50, 
       p25:statsChile.p25, 
       p75:statsChile.p75, 
       max:maxChile,
       mark:null,
-      width:width
+      width:width,
+      height:height-20
       })
     ) 
   }
@@ -49,16 +50,16 @@ const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad)
   <div class="card">
   <h2>Mediana de edad de defunción</h2>
   <h3>Edad bajo la cual está el 50% de las personas</h3>
-  ${
-    resize((width) =>
+${
+    resize((width,height) =>
       buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
       p50:statsChile.p50, 
       p25:statsChile.p25, 
       p75:statsChile.p75, 
       max:maxChile,
       mark:"median",
-      width:width
-      })
+      width:width,
+      height:height-20      })
     ) 
   }
   </div>
@@ -66,14 +67,15 @@ const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad)
   <h2>Distribución en 4 cuartiles </h2>
   <h3>Edad bajo la cual está el 25%, 50% y 75% de las personas</h3>
 ${
-    resize((width) =>
+    resize((width,height) =>
       buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
       p50:statsChile.p50, 
       p25:statsChile.p25, 
       p75:statsChile.p75, 
       max:maxChile,
       mark:"quartiles",
-      width:width
+      width:width,
+      height:height-20
       })
     ) 
   }
@@ -81,6 +83,7 @@ ${
   </div>
 
 </div>
+
 
 
 
@@ -140,53 +143,6 @@ ORDER BY defunciones DESC
 ```
 
 
-```js
-function getCurve(options) {
-  const comuna = (options && options.comuna) || "Chile";
-  const sexo = (options && options.sexo) || null;
-
-  if (false) {
-
-  } else {
-    return _.chain([...dataDefuncionesPorComunaEdad])
-      .filter((d) => d.comuna == comuna)
-      .sortBy((d) => d.edad)
-      .value();
-  }
-}
-```
-
-```js
-function buildChartCurve(data,options) {
-  const comuna = (options && options.comuna) || "Chile";
-  const sexo = (options && options.sexo) || null;
-  const p50 = (options && options.p50) || null;
-  const title = (options && options.title) || comuna;
-  const subtitle = (options && options.subtitle) || null;
-
-  const dataPlot = data
-
-  const max = _.chain(dataPlot)
-    .map((d) => d.defunciones)
-    .max()
-    .value();
-
-  return Plot.plot({
-    title,
-    subtitle,
-    marginLeft: 50,
-    marks: [
-      Plot.areaY(dataPlot, {
-        x: "edad",
-        y: "defunciones",
-        fill: (d) => "curva",
-        opacity: 1
-      }),      
-      Plot.ruleX([p50]),
-    ]
-  });
-}
-```
 
 ```js
 function buildChartCurve2(data,options) {
@@ -199,6 +155,7 @@ function buildChartCurve2(data,options) {
   const p25 = (options && options.p25) || null;
   const p75 = (options && options.p75) || null;
   const width = (options && options.width) || 640;
+  const height = (options && options.height) || width/2;
 
   const dataPlot = data;
 
@@ -300,7 +257,8 @@ function buildChartCurve2(data,options) {
 
   return Plot.plot({
     width,
-    title,
+    height,
+    title: height,
     subtitle,
     marginLeft: 50,
     x:{domain:[0,120]},
