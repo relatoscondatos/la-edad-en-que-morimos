@@ -6,12 +6,14 @@ sql:
   statsPorComuna: data/percentilesPorComuna.parquet
 ---
 
-# Edad de defunción en Chile  
+# Edad de defunción en Chile
 ##
 ## Distribución de edad de defunción en Chile
-Esta página utiliza datos oficiales de fallecimiento en Chile publicados por el Departamento de Estadísticas e Información en Salud del Ministeriomde Salud de Chile.
 
-Se utilizan los datos de 10 años (entre 2024 y 2013) y se presenta la distribución de la edad de fallecimiento para el país y comunas específicas.
+Esta página utiliza datos oficiales de fallecimiento en Chile, publicados por el Departamento de Estadísticas e Información en Salud del Ministerio de Salud de Chile.
+
+Se utilizan datos de 10 años (entre 2013 y 2024) y se presenta la distribución de la edad de fallecimiento para el país y comunas específicas.
+
 
 <div class="grid grid-cols-1">
   <div class="card grid-colspan-1">
@@ -91,6 +93,8 @@ Una manera alternativa de sintetizar cómo se distribuyen las edades es con una 
 
 </div>
 
+## Distribución de edad de defunción por comunas
+
 A nivel comunal, muchas comunas tienen una distribución similar a la nacional. A continuación se ilustra la distribución de algunas capitales regionales que son muy similares a la distribución nacional. Sin embargo, otras capitales regionales se distancian más de la distribución nacional.
 
 <div class="grid grid-cols-2">
@@ -125,7 +129,7 @@ Si observamos todas las comunas (excluyendo las más pequeñas, con menos de 100
 
 
 
-## Defunciones por comuna
+## Consulta por una comuna
 
 Aquí puedes seleccionar una comuna, observar su distribución y compararla con la distribución nacional.
 ```js
@@ -204,12 +208,12 @@ Según la OMS, *numerosos estudios sugieren que los DSS representan **entre el 3
 
  <div class="card">
   <h2>Fuente de datos</h2>
-"Defunciones por Causa", Departamento de Estadísticas e Información de Salud,  Ministerio de Salud  
+Departamento de Estadísticas e Información de Salud,  Ministerio de Salud, "Defunciones por Causa"  
 
 * Datos Abiertos | Defunciones
 https://deis.minsal.cl/#datosabiertos
 
-* Defunciones por Causa 1990 - 2021 CIFRAS OFICIALES: https://repositoriodeis.minsal.cl/DatosAbiertos/VITALES/DEFUNCIONES_FUENTE_DEIS_1990_2021_CIFRAS_OFICIALES.zip
+* [Defunciones por Causa 1990 - 2021 CIFRAS OFICIALES](https://repositoriodeis.minsal.cl/DatosAbiertos/VITALES/DEFUNCIONES_FUENTE_DEIS_1990_2021_CIFRAS_OFICIALES.zip)
 * Defunciones por Causa 2022 - 2024 CIFRAS PRELIMINARES (Actualización semanal):(*Enlace actualizado semanalmente*)  
 
 Organización Mundial de la Salud (OMS). "Social determinants of health." Consultado el 16 de julio de 2024. https://www.who.int/health-topics/social-determinants-of-health.
