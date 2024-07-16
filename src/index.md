@@ -69,15 +69,17 @@ sql:
   </div>
 </div>
 
-<div class="grid grid-cols-1">
+
+
+<div class="grid grid-cols-2">
  
   <div class="card">
-  <h2>Comunas con distrtibución similar a Chile</h2>
-  <h3>Solo se incluyen comunas con más de 1000 defunciones en 10 años</h3>
-  ${buildBoxes(statsComunasSimilarAChile)}
+  <h2>Distribución en Capitales Regionales</h2>
+  ${buildBoxes(statsCapitalesRegionales)}
   </div>
 
 </div>
+
 
 
 <div class="grid grid-cols-2">
@@ -371,10 +373,19 @@ const dataComuna = _.chain([...dataDefuncionesPorComunaEdad])
       .value()
 ```
 
+```js
+const statsCapitalesRegionales = [...statsComunas].filter(d => d.comuna.match(/Chile$|Arica|Iquique|Antofagasta|Copiapó|La Serena|Valparaíso|Rancagua|Talca|Concepción|Chillán$|Temuco|Valdivia|Puerto Montt|Coihaique|Punta Arenas/))
+```
+
 ```sql id=[statsComuna]
 SELECT *
 FROM statsPorComuna 
 WHERE comuna = ${comuna}
+```
+
+```sql id=statsComunas
+SELECT *
+FROM statsPorComuna 
 ```
 
 ```sql id=statsComunasTop
@@ -393,7 +404,7 @@ ORDER BY p50 DESC
 ```sql id=statsComunasSimilarAChile
 SELECT *
 FROM statsPorComuna 
-WHERE p50 = ${statsChile.p50} AND p25 > ${statsChile.p25} AND p75 < ${statsChile.p75} AND n > 1000 or comuna = 'Chile'
+WHERE p50 = ${statsChile.p50} AND p25 = ${statsChile.p25} AND p75 = ${statsChile.p75} AND n > 1000 or comuna = 'Chile'
 ORDER BY p50 DESC
 ```
 
