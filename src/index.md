@@ -118,9 +118,9 @@ WHERE comuna = ${comuna}
   ${
     resize((width) =>
       buildChartCurve2(dataComuna,{
-      p50:statsChile.p50, 
-      p25:statsChile.p25, 
-      p75:statsChile.p75, 
+      p50:statsComuna.p50, 
+      p25:statsComuna.p25, 
+      p75:statsComuna.p75, 
       max:maxChile,
       mark:"median",
       width:640,
@@ -136,9 +136,9 @@ WHERE comuna = ${comuna}
   ${
     resize((width) =>
       buildChartCurve2(dataComuna,{
-      p50:statsChile.p50, 
-      p25:statsChile.p25, 
-      p75:statsChile.p75, 
+      p50:statsComuna.p50, 
+      p25:statsComuna.p25, 
+      p75:statsComuna.p75, 
       max:maxChile,
       mark:"quartiles",
       width:640,
