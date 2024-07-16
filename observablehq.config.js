@@ -1,7 +1,7 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
   // The project’s title; used in the sidebar and webpage titles.
-  title: "Prueba",
+  title: "Edad de defunción en Chile",
 
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
@@ -34,7 +34,7 @@ export default {
   header: 'Un relato con datos <img src="./favicon.ico" height="20px"> ', // what to show in the header (HTML)
   footer: 'Relatos con datos <i class="fas fa-envelope"></i> <a href="mailto:contacto@relatoscondatos.cl">contacto@relatoscondatos.cl</a>', // what to show in the footer (HTML)
   sidebar: false, // whether to show the sidebar
-  // toc: true, // whether to show the table of contents
+  toc: {show:true, label:"Contenido"}, // whether to show the table of contents
   pager: false, // whether to show previous & next links in the footer
   // output: "dist", // path to the output root for build
   // search: true, // activate search
