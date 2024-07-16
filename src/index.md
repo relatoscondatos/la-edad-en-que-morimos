@@ -69,6 +69,15 @@ sql:
   </div>
 </div>
 
+<div class="grid grid-cols-2">
+ 
+  <div class="card">
+  <h2>Distribución de fallecimientos en Chile</h2>
+  <h3>Caja representa rango entre primer cuartil (25%) y 3er cuartil (75%)</h3>
+  ${buildBoxes([statsChile])}
+  </div>
+
+</div>
 
 
 <div class="grid grid-cols-2">
