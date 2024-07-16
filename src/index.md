@@ -29,12 +29,13 @@ WHERE comuna = 'Chile'
 const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad).value()
 ```
 
-<div class="grid grid-cols-2" style="grid-auto-rows: 240px;">
-  <div class="card grid-colspan-2">
+<div class="grid grid-cols-1">
+  <div class="card grid-colspan-1">
   <h2>Distribución de edad de defunciones en Chile</h2>
   <h3>Datos de años 2014 a 2023</h3>
+
   ${
-    resize((width, height) =>
+    resize((width) =>
       buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
       p50:statsChile.p50, 
       p25:statsChile.p25, 
@@ -42,16 +43,20 @@ const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad)
       max:maxChile,
       mark:null,
       width:640,
-      height:height-20
-      })
+      height:320
+})
     ) 
   }
-  </div>
+  </div>  
+  </div>  
+
+<div class="grid grid-cols-2">
+ 
   <div class="card">
-  <h2>Mediana de edad de defunción</h2>
-  <h3>Edad bajo la cual está el 50% de las personas</h3>
-${
-    resize((width,height) =>
+  <h2>Mediana</h2>
+  <h3>Edad de defunciones en Chile</h3>
+  ${
+    resize((width) =>
       buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
       p50:statsChile.p50, 
       p25:statsChile.p25, 
@@ -59,15 +64,16 @@ ${
       max:maxChile,
       mark:"median",
       width:640,
-      height:height-20      })
+      height:320
+})
     ) 
   }
   </div>
   <div class="card">
-  <h2>Distribución en 4 cuartiles </h2>
-  <h3>Edad bajo la cual está el 25%, 50% y 75% de las personas</h3>
-${
-    resize((width,height) =>
+  <h2>Cuartiles</h2>
+  <h3>Edad de defunciones en Chile</h3>
+  ${
+    resize((width) =>
       buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
       p50:statsChile.p50, 
       p25:statsChile.p25, 
@@ -75,14 +81,13 @@ ${
       max:maxChile,
       mark:"quartiles",
       width:640,
-      height:height-20
-      })
+      height:320
+})
     ) 
   }
-
   </div>
-
 </div>
+
 
 
 
@@ -105,11 +110,30 @@ SELECT *
 FROM statsPorComuna 
 WHERE comuna = ${comuna}
 ```
-
+<div class="grid grid-cols-2">
   <div class="card">
-  <h2>Mediana de edad de defunción</h2>
-  <h3>Edad bajo la cual está el 50% de las personas</h3>
-${
+  <h2>Mediana</h2>
+    <h3>Edad de defunciones en ${comuna}</h3>
+
+  ${
+    resize((width) =>
+      buildChartCurve2(dataComuna,{
+      p50:statsChile.p50, 
+      p25:statsChile.p25, 
+      p75:statsChile.p75, 
+      max:maxChile,
+      mark:"median",
+      width:640,
+      height:320
+})
+    ) 
+  }
+  </div>
+    <div class="card">
+      <h2>Cuartiles</h2>
+      <h3>Edad de defunciones en ${comuna}</h3>
+
+  ${
     resize((width) =>
       buildChartCurve2(dataComuna,{
       p50:statsChile.p50, 
@@ -123,16 +147,10 @@ ${
     ) 
   }
   </div>
+</div>
 
-```js
-buildChartCurve2(dataComuna,{
-  p50:statsComuna.p50,
-  p25:statsComuna.p25,
-  p75:statsComuna.p75,
-  max:maxChile,
-  mark:"quartiles"
-  })
-```
+
+
 
 
 ```js
@@ -275,7 +293,7 @@ function buildChartCurve2(data,options) {
   return Plot.plot({
     width,
     height,
-    title: `${width} x ${height}`,
+    title,
     subtitle,
     marginLeft: 50,
     x:{domain:[0,120]},
