@@ -69,6 +69,16 @@ sql:
   </div>
 </div>
 
+<div class="grid grid-cols-1">
+ 
+  <div class="card">
+  <h2>Comunas con distrtibución similar a Chile</h2>
+  <h3>Solo se incluyen comunas con más de 1000 defunciones en 10 años</h3>
+  ${buildBoxes(statsComunasSimilarAChile)}
+  </div>
+
+</div>
+
 
 <div class="grid grid-cols-2">
  
@@ -377,6 +387,13 @@ WHERE p50 > 78 AND n > 1000 or comuna = 'Chile'
 SELECT *
 FROM statsPorComuna 
 WHERE p50 < 74 AND n > 1000 or comuna = 'Chile'
+ORDER BY p50 DESC
+```
+
+```sql id=statsComunasSimilarAChile
+SELECT *
+FROM statsPorComuna 
+WHERE p50 = ${statsChile.p50} AND p25 > ${statsChile.p25} AND p75 < ${statsChile.p75} AND n > 1000 or comuna = 'Chile'
 ORDER BY p50 DESC
 ```
 
