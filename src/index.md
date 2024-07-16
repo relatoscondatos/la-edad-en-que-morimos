@@ -6,28 +6,9 @@ sql:
   statsPorComuna: data/percentilesPorComuna.parquet
 ---
 
-```js
-import {buildDistChart} from "./components/distributionChart.js";
-```
-
 ## A qué edad muere la gente en Chile
 ### En base a datos de 2014 a 2023
 
-
-```sql id=dataDefuncionesChilePorEdad
-SELECT *
-FROM defuncionesChilePorEdad  
-```
-
-```sql id=[statsChile]
-SELECT *
-FROM statsPorComuna 
-WHERE comuna = 'Chile'
-```
-
-```js
-const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad).value()
-```
 
 <div class="grid grid-cols-1">
   <div class="card grid-colspan-1">
@@ -89,27 +70,28 @@ const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad)
 </div>
 
 
+<div class="grid grid-cols-2">
+ 
+  <div class="card">
+  <h2>Comunas con mayor edad de fallecimiento</h2>
+  <h3>Solo se incluyen comunas con más de 1000 defunciones en 10 años</h3>
+  ${buildBoxes(statsComunasTop)}
+  </div>
+
+  <div class="card">
+  <h2>Comunas con menor edad de fallecimiento</h2>
+  <h3>Solo se incluyen comunas con más de 1000 defunciones en 10 años</h3>
+  ${buildBoxes(statsComunasBottom)}
+  </div>
+</div>
 
 
 
 ## Defunciones por comuna
-
 ```js
 const comuna = view(Inputs.select(_.map(dataComunas.toArray(),d => d.comuna), { label: "Comuna"}));
 ```
 
-```js
-const dataComuna = _.chain([...dataDefuncionesPorComunaEdad])
-      .filter((d) => d.comuna == comuna)
-      .sortBy((d) => d.edad)
-      .value()
-```
-
-```sql id=[statsComuna]
-SELECT *
-FROM statsPorComuna 
-WHERE comuna = ${comuna}
-```
 <div class="grid grid-cols-2">
   <div class="card">
   <h2>Mediana</h2>
@@ -148,34 +130,6 @@ WHERE comuna = ${comuna}
   }
   </div>
 </div>
-
-
-
-
-
-```js
-Inputs.table(dataComuna)
-```
-
-```sql id=dataDefuncionesPorComunaEdad
-SELECT *
-FROM defuncionesPorComunaEdad  
-
-```
-
-```sql id=dataComunas
-SELECT DISTINCT comuna
-FROM statsPorComuna  
-WHERE n >= 1000
-ORDER BY comuna
-```
-
-
-```sql id=dataDefuncionesPorComuna
-SELECT *
-FROM defuncionesPorComuna  
-ORDER BY defunciones DESC
-```
 
 
 
@@ -310,9 +264,139 @@ function buildChartCurve2(data,options) {
     ]
   });
 }
+
+function buildBoxes(data, options) {
+  const dataPlot = data;
+
+  return Plot.plot({
+    marginLeft: 100,
+
+    x: {
+      domain: [50, 95]
+    },
+
+    y:{
+      domain: _.chain([...dataPlot]).sortBy(d => d.p75).sortBy(d => d.p50).map(d => d.comuna).reverse().value()
+    },
+    color: {
+      domain: ["comuna", "chile"],
+      //range: ["blue", "lightgrey"]
+    },
+    marks: [
+      Plot.barX(dataPlot, {
+        x1: (d) => d.p25,
+        x2: (d) => d.p75,
+        y: (d) => d.comuna,
+        fill: (d) =>
+          d.comuna !== "Chile" ? "comuna" : "chile"
+      }),
+
+      Plot.tickX(dataPlot, {
+        x: (d) => d.p50,
+        y: "comuna",
+        stroke: "black",
+        //sort: { y: "x" }
+      }),
+      Plot.barX(dataPlot, {
+        x1: (d) => d.p50 - 0.5,
+        x2: (d) => d.p50 + 0.5,
+        y: (d) => d.comuna,
+        insetTop: 5,
+        insetBottom: 5,
+        fill: "white"
+      }),
+
+      Plot.text(dataPlot, {
+        x: (d) => d.p50,
+        y: "comuna",
+        fill: "black",
+        text: (d) => d.p50,
+        fontSize: 8
+      }),
+      Plot.text(dataPlot, {
+        x: (d) => d.p75,
+        y: "comuna",
+        fill: "black",
+        text: (d) => d.p75,
+        textAnchor: "start",
+        fontSize: 8
+      }),
+      Plot.text(dataPlot, {
+        x: (d) => d.p25,
+        y: "comuna",
+        fill: "black",
+        text: (d) => d.p25,
+        textAnchor: "end",
+        fontSize: 8
+      }),
+      Plot.ruleX([0])
+    ]
+  });
+}
 ```
 
+```js
+import {buildDistChart} from "./components/distributionChart.js";
+```
 
+```sql id=dataDefuncionesChilePorEdad
+SELECT *
+FROM defuncionesChilePorEdad  
+```
+
+```sql id=[statsChile]
+SELECT *
+FROM statsPorComuna 
+WHERE comuna = 'Chile'
+```
+
+```js
+const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad).value()
+```
+
+```js
+const dataComuna = _.chain([...dataDefuncionesPorComunaEdad])
+      .filter((d) => d.comuna == comuna)
+      .sortBy((d) => d.edad)
+      .value()
+```
+
+```sql id=[statsComuna]
+SELECT *
+FROM statsPorComuna 
+WHERE comuna = ${comuna}
+```
+
+```sql id=statsComunasTop
+SELECT *
+FROM statsPorComuna 
+WHERE p50 > 78 AND n > 1000 or comuna = 'Chile'
+```
+
+```sql id=statsComunasBottom
+SELECT *
+FROM statsPorComuna 
+WHERE p50 < 74 AND n > 1000 or comuna = 'Chile'
+ORDER BY p50 DESC
+```
+
+```sql id=dataDefuncionesPorComunaEdad
+SELECT *
+FROM defuncionesPorComunaEdad  
+```
+
+```sql id=dataComunas
+SELECT DISTINCT comuna
+FROM statsPorComuna  
+WHERE n >= 1000
+ORDER BY comuna
+```
+
+```sql id=dataDefuncionesPorComuna
+SELECT *
+FROM defuncionesPorComuna  
+ORDER BY defunciones DESC
+```
 
 ```js
 import { es_ES } from "./components/config.js";
