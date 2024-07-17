@@ -31,7 +31,7 @@ export default {
 
   // Some additional configuration options and their defaults:
   theme: "default", // try "light", "dark", "slate", etc.
-  header: 'Un relato con datos <img src="./favicon.ico" height="20px"> ', // what to show in the header (HTML)
+  header: 'Un relato con datos <img src="./favicon.ico" height="20px"> <a href="https://www.relatoscondatos.cl" target="_blank">www.relatoscondatos.cl</a> ', // what to show in the header (HTML)
   footer: 'Relatos con datos <i class="fas fa-envelope"></i> <a href="mailto:contacto@relatoscondatos.cl">contacto@relatoscondatos.cl</a>', // what to show in the footer (HTML)
   sidebar: false, // whether to show the sidebar
   toc: {show:true, label:"Contenido"}, // whether to show the table of contents
