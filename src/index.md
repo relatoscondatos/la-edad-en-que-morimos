@@ -185,7 +185,7 @@ ${comparaciónConChile(statsComuna, statsChile)}
 </div>
 
 ## Determinantes sociales de la salud
-### Posible causa de las diferencias
+### Posible explicación de las diferencias
 
 La OMS indica que *"Los determinantes sociales de la salud (DSS) son los factores no médicos que influyen en los resultados de salud. Son las condiciones en las que las personas nacen, crecen, trabajan, viven y envejecen, y el conjunto más amplio de fuerzas y sistemas que moldean las condiciones de la vida diaria." (OMS, 2024)* 
 
@@ -203,6 +203,13 @@ Ejemplos de determinantes sociales de la salud:
 
 Según la OMS, *numerosos estudios sugieren que los DSS representan **entre el 30% y el 55%** de los resultados de salud.*
 
+Más información sobre ***Determinandes sociales de la salud***: 
+* [Social determinants of health, OMS](https://www.who.int/health-topics/social-determinants-of-health)
+* [Determinantes sociales de la salud, OPS](https://www.paho.org/es/temas/determinantes-sociales-salud)
+* [Social determinants of health: the solid facts, 2nd ed, OMS](https://iris.who.int/handle/10665/326568)
+* [Fair Society, Healthy Lives (The Marmot Review)](https://www.instituteofhealthequity.org/resources-reports/fair-society-healthy-lives-the-marmot-review)
+* [Marmot Review 10 Years On](https://www.instituteofhealthequity.org/resources-reports/marmot-review-10-years-on)
+
 
  <div class="card">
   <h2>Fuente de datos</h2>
@@ -217,6 +224,21 @@ https://deis.minsal.cl/#datosabiertos
 Organización Mundial de la Salud (OMS). "Social determinants of health." Consultado el 16 de julio de 2024. https://www.who.int/health-topics/social-determinants-of-health.
 
   </div>
+
+
+```js
+const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad).value()
+
+const dataComuna = _.chain([...dataDefuncionesPorComunaEdad])
+      .filter((d) => d.comuna == comuna)
+      .sortBy((d) => d.edad)
+      .value()
+
+const statsCapitalesRegionales = [...statsComunas].filter(d => d.comuna.match(/Chile$|Arica$|Iquique$|Antofagasta$|Copiapó$|La Serena$|Valparaíso$|Rancagua$|Talca$|Concepción$|Chillán$|Temuco$|Valdivia$|Puerto Montt$|Coihaique$|Punta Arenas/))
+
+const umbralDiferencia = 2;
+```
+
 
 ```js
 /*
@@ -350,6 +372,15 @@ function buildChartCurve(data,options) {
         opacity: 1
       }),
 
+      Plot.lineY(dataPlot, {
+        x: "edad",
+        y: "defunciones",
+        stroke: (d) => "curva",
+        opacity: 0,
+        tip:true,
+        title: d => `Edad: ${d.edad} \nDefunciones: ${d3.format(",")(d.defunciones)}`
+      }),
+
       mark == "median" ? medianMark  : mark == "quartiles" ? quartilesMark : []
     ]
   });
@@ -428,12 +459,12 @@ function comparaciónConChile(statsComuna, statsChile) {
 
   let msg = `${statsComuna.comuna}`
   if (statsComuna.p50 < statsChile.p50 - umbralDiferencia) {
-    msg += ` tiene una mediana menor a la de Chile`
+    msg += ` tiene una mediana (${statsComuna.p50}) menor a la de Chile (${statsChile.p50})`
   } else if (statsComuna.p50 > statsChile.p50 + umbralDiferencia) {
-    msg += ` tiene una mediana por sobre la de Chile`
+    msg += ` tiene una mediana (${statsComuna.p50}) por sobre la de Chile (${statsChile.p50})`
 
   } else {
-    msg += ` tiene una mediana similar a la de Chile`
+    msg += ` tiene una mediana (${statsComuna.p50}) similar a la de Chile (${statsChile.p50})`
   }
 
   return msg
@@ -441,10 +472,6 @@ function comparaciónConChile(statsComuna, statsChile) {
 ```
 
 
-
-```js
-import {buildDistChart} from "./components/distributionChart.js";
-```
 
 ```sql id=dataDefuncionesChilePorEdad
 SELECT *
@@ -455,19 +482,6 @@ FROM defuncionesChilePorEdad
 SELECT *
 FROM statsPorComuna 
 WHERE comuna = 'Chile'
-```
-
-```js
-const maxChile = _.chain(dataDefuncionesChilePorEdad.toArray()).map(d => d.edad).value()
-
-const dataComuna = _.chain([...dataDefuncionesPorComunaEdad])
-      .filter((d) => d.comuna == comuna)
-      .sortBy((d) => d.edad)
-      .value()
-
-const statsCapitalesRegionales = [...statsComunas].filter(d => d.comuna.match(/Chile$|Arica$|Iquique$|Antofagasta$|Copiapó$|La Serena$|Valparaíso$|Rancagua$|Talca$|Concepción$|Chillán$|Temuco$|Valdivia$|Puerto Montt$|Coihaique$|Punta Arenas/))
-
-const umbralDiferencia = 2;
 ```
 
 ```sql id=[statsComuna]
@@ -526,6 +540,8 @@ ORDER BY defunciones DESC
 ```
 
 ```js
+import {buildDistChart} from "./components/distributionChart.js";
+
 import { es_ES } from "./components/config.js";
 d3.formatDefaultLocale(es_ES);
 ```
