@@ -5,14 +5,12 @@ sql:
   defuncionesPorComunaEdad: data/defuncionesPorComunaEdad.parquet
   statsPorComuna: data/percentilesPorComuna.parquet
 ---
+# ¿La edad en que morimos depende de dónde vivimos?
+## Explorando las desigualdades en la edad de defunción en Chile
 
-# Edad de defunción en Chile
-##
 ## Distribución de edad de defunción en Chile
 
-Esta página utiliza datos oficiales de fallecimiento en Chile, publicados por el Departamento de Estadísticas e Información en Salud del Ministerio de Salud de Chile.
-
-Se utilizan datos de 10 años (entre 2013 y 2024) y se presenta la distribución de la edad de fallecimiento para el país y comunas específicas.
+Esta página utiliza datos de las defunciones en Chile entre 2014 y 2023 (10 años), publicados por el Departamento de Estadísticas e Información en Salud (DEIS) del Ministerio de Salud de Chile.
 
 
 <div class="grid grid-cols-1">
