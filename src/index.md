@@ -20,7 +20,7 @@ Esta página utiliza datos de las defunciones en Chile entre 2014 y 2023 (10 añ
 
   ${
     resize((width) =>
-      buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
+      buildChartCurve(dataDefuncionesChilePorEdad.toArray(),{
       p50:statsChile.p50, 
       p25:statsChile.p25, 
       p75:statsChile.p75, 
@@ -48,7 +48,7 @@ También podemos dividir la población en cuatro grupos (25% cada uno) y obtener
   <h3>Edad de defunciones en Chile</h3>
   ${
     resize((width) =>
-      buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
+      buildChartCurve(dataDefuncionesChilePorEdad.toArray(),{
       p50:statsChile.p50, 
       p25:statsChile.p25, 
       p75:statsChile.p75, 
@@ -65,7 +65,7 @@ También podemos dividir la población en cuatro grupos (25% cada uno) y obtener
   <h3>Edad de defunciones en Chile</h3>
   ${
     resize((width) =>
-      buildChartCurve2(dataDefuncionesChilePorEdad.toArray(),{
+      buildChartCurve(dataDefuncionesChilePorEdad.toArray(),{
       p50:statsChile.p50, 
       p25:statsChile.p25, 
       p75:statsChile.p75, 
@@ -141,7 +141,7 @@ const comuna = view(Inputs.select(_.map(dataComunas.toArray(),d => d.comuna), { 
 
   ${
     resize((width) =>
-      buildChartCurve2(dataComuna,{
+      buildChartCurve(dataComuna,{
       p50:statsComuna.p50, 
       p25:statsComuna.p25, 
       p75:statsComuna.p75, 
@@ -159,7 +159,7 @@ const comuna = view(Inputs.select(_.map(dataComunas.toArray(),d => d.comuna), { 
 
   ${
     resize((width) =>
-      buildChartCurve2(dataComuna,{
+      buildChartCurve(dataComuna,{
       p50:statsComuna.p50, 
       p25:statsComuna.p25, 
       p75:statsComuna.p75, 
@@ -219,7 +219,10 @@ Organización Mundial de la Salud (OMS). "Social determinants of health." Consul
   </div>
 
 ```js
-function buildChartCurve2(data,options) {
+/*
+* buildChartCurve
+*/
+function buildChartCurve(data,options) {
   const comuna = (options && options.comuna) || "Chile";
   const sexo = (options && options.sexo) || null;
   const mark = (options && options.mark) || null;
